@@ -1,0 +1,25 @@
+Output: 
+-
+--
+---
+----
+-----
+------
+
+
+
+for (let line = "-"; line.length < 7; line += "-") {
+    /* The 'let line = "-"' is creating a variable named line that has "-" as its value. 
+    The variable is deleted after the for loop is finished
+
+    The second part of the for loop checks the length of the var before each iteration and if the length 
+    of the line is smaller than 7 it keeps looping and doing the body of the for loop. If it is not, it 
+    goes to after the curly brace }
+
+    The last part adds a "-" to the end of the line var after each iteration
+    */
+
+    //This prints the line var into the console
+    console.log(line);
+}
+
