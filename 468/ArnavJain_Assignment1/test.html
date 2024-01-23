@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<!-- Standard syntax -->
-
 <!-- 
     Author: Arnav Jain
     Date: 1/17/23
@@ -12,18 +9,28 @@
 -->
 
 
+<!DOCTYPE html>
+<!-- Standard syntax -->
+
+
+
 <html>
     <head>
         <!-- Set Tab title -->
         <title>Hello World!</title>
     </head>
     <body>
-        <!-- Get the test.js file for the functions -->
+        <!-- The JS functions -->
         <script>
 
             function testFunc() {
                 // The function that get's the element by the ID of second_paragraph and then changes the inner text
                 document.getElementById("second_paragraph").innerText = "\nHello \n\n World!\n";
+            }
+
+            function doAlert() {
+                // The function that triggers an alert when called
+                alert("Hello World!");
             }
         </script>
 
@@ -33,12 +40,12 @@
         <!-- Paragraph -->
         <p>Hello world? <br> Idk if this works or nah</p>
         
-        <!-- Button 1 -->
-        <button type="button" onclick="alert('Hello World!')">Test 1 for Hello World!</button>
+        <!-- Button 1, Calls doAlert()-->
+        <button type="button" onclick="doAlert()">Test 1 for Hello World!</button>
         <!-- Second paragraph which is blank for now -->
         <p id="second_paragraph"></p>
         
-        <!-- Second button -->
+        <!-- Second button calls testFunc() -->
         <button type="button" onclick="testFunc()">Test 2 for Hello World!</button>
 
 
