@@ -1,0 +1,4 @@
+1. True because object2 is pointing to the same value that object1 is pointing to so it will return True
+2. False because they are pointing to completely different objects so it will return false
+3. 15 because it has the same values as object1 so when object1 was changed to 15 object2 got changed as well
+4. 10 because object3 value was set at 10 and hasn't been changed. 

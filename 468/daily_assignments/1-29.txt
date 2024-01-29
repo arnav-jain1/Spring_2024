@@ -1,0 +1,31 @@
+1a: 2
+1b: 2 
+
+2. 
+// A function that takes in a string and a char and returns the amount of that char in the string
+function countChar(string, ch) {
+    // COunter var
+    let counted = 0;
+    
+    // Go through each letter in the string
+    for (let i = 0; i < string.length; i++) {
+        // If the letter in the string is the same as the input char then add to a counter
+        if (string[i] == ch) {
+        counted += 1;
+        }
+    }
+    // Return the counter
+    return counted;
+}
+
+// A function that inputs a string and outputs the amount of Es in a string 
+function countEs(string) {
+    // Return output of countChar with string as param one and E as param 2
+    return countChar(string, 'E');
+}
+
+3.
+const func = countChar(string, ch);
+
+4.
+const countEs = (string) => { return countChar(string, 'E'); };
