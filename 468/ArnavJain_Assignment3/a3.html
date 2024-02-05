@@ -38,18 +38,27 @@
 
         <!-- The JS functions -->
         <script>
+            // The group class
             class Group {
+                // Contructor, creates an empty array
                 constructor() {
                     this.members = [];
                 }
+
+                // Adds a value to the group by using push
                 add(value) {
                     this.members.push(value);
                 }
+
+                // Checks if the value is in the group and returns true or false
                 has(value) {
                     return this.members.includes(value);
                 }
+
+                // Deletes a value from the group if it exists and throws an error if it doesn't
                 delete(value) {
                     if (this.members.has(value)) {
+                        // Done by filtering the array 
                         this.members = this.members.filter(v => v !== value);
                     }
                     else {
