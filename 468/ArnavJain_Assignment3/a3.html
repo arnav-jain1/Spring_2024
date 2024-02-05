@@ -50,9 +50,41 @@
                 }
                 delete(value) {
                     if (this.members.has(value)) {
-                        this.members = this.members.remove(value);
-                        return true;
+                        this.members = this.members.filter(v => v !== value);
                     }
+                    else {
+                        throw new Error("Value not found");
+                    }
+                }
+                union(other) {
+                    let result = new Group;
+                    for (let value of this.members) {
+                        result.add(value);
+                    }
+                    for (let value of other.members) {
+                        if (!result.has(value)) {
+                            result.add(value);
+                        }
+                    }
+                    return result;
+                }
+                intersection(other) {
+                    let result = new Group;
+                    for (let value of this.members) {
+                        if (other.has(value)) {
+                            result.add(value);
+                        }
+                    }
+                    return result;
+                }
+                difference(other) {
+                    let result = new Group;
+                    for (let value of this.members) {
+                        if (!other.has(value)) {
+                            result.add(value);
+                        }
+                    }
+                    return result;
                 }
             }
         </script>
