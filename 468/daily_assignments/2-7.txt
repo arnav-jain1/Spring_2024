@@ -1,0 +1,4 @@
+1. You see a house
+2. You see two angry bears
+3. Something's not right: Invalid answer: UP
+4. h,b,c,i,o

@@ -1,0 +1,60 @@
+<!-- 
+    Author: Arnav Jain
+    Date: 1/17/23
+    Name: EECS 468 Assignment 2
+    Description: Simple website
+    Inputs: None
+    Outputs: Website with given tasks
+    Collaborators: Just me
+-->
+
+
+<!DOCTYPE html>
+<!-- Standard syntax -->
+
+
+
+<html>
+    <head>
+        <!-- Set Tab title -->
+        <title>Assignment 2</title>
+    </head>
+    <body>
+
+
+        <!-- First title -->
+        <h1>Assignment 2</h1>
+        
+        <!-- Output of Button 1 -->
+        <p id="e21"></p>
+        
+        <!-- Output of Button 2 -->
+        <p id="e22"></p>
+
+
+        <!-- Output of Button 3 -->
+        <p id="e23"></p>
+
+
+        <!-- The JS functions -->
+        <script>
+            class Group {
+                constructor() {
+                    this.members = [];
+                }
+                add(value) {
+                    this.members.push(value);
+                }
+                has(value) {
+                    return this.members.includes(value);
+                }
+                delete(value) {
+                    if (this.members.has(value)) {
+                        this.members = this.members.remove(value);
+                        return true;
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
