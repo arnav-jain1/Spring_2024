@@ -21,23 +21,30 @@
     </head>
     <body>
 
-
-        <!-- First title -->
-        <h1>Assignment 2</h1>
-        
-        <!-- Output of Button 1 -->
-        <p id="e21"></p>
-        
-        <!-- Output of Button 2 -->
-        <p id="e22"></p>
-
-
-        <!-- Output of Button 3 -->
-        <p id="e23"></p>
-
+        <p id="contents-group1">a) Contents of group1:</p>
+        <p id="contents-group2">b) Contents of group2:</p>
+        <p id="group1-has5">c) Results of group1.has(5):</p>
+        <p id="group2-has3">d) Results of group2.has(3):</p>
+        <p id="group1-union-group2">e) Results of group1.union(group2):</p>
+        <p id="group1-intersection-group2">f) Results of group1.intersection(group2):</p>
+        <p id="group1-difference-group2">g) Results of group1.difference(group2):</p>
+        <p id="group1-delete1">h) Results of group1.delete(1):</p>
+        <p id="group2-delete1">i) Results of group2.delete(1):</p>
 
         <!-- The JS functions -->
         <script>
+
+            let group1 = new Group();
+            let group2 = new Group();
+            group1.add(1);
+            group1.add(2);
+            group1.add(3);
+            group2.add(2);
+            group2.add(3);
+            group2.add(5);
+            group2.add(2);
+
+
             // The group class
             class Group {
                 // Contructor, creates an empty array
@@ -45,9 +52,10 @@
                     this.members = [];
                 }
 
-                // Adds a value to the group by using push
+                // Adds a value to the group by using push, but only if it doesn't already exist
                 add(value) {
-                    this.members.push(value);
+                    if (!this.has(value))
+                        this.members.push(value);
                 }
 
                 // Checks if the value is in the group and returns true or false
@@ -58,18 +66,25 @@
                 // Deletes a value from the group if it exists and throws an error if it doesn't
                 delete(value) {
                     if (this.members.has(value)) {
-                        // Done by filtering the array 
+                        // Done by filtering the array using filter method
                         this.members = this.members.filter(v => v !== value);
                     }
                     else {
                         throw new Error("Value not found");
                     }
                 }
+                
+                // Union of two groups
                 union(other) {
+                    // Create a new group
                     let result = new Group;
+                    
+                    // Add all the values from the first group
                     for (let value of this.members) {
                         result.add(value);
                     }
+                    
+                    // Add all the values from the second group as long as they don't already exist
                     for (let value of other.members) {
                         if (!result.has(value)) {
                             result.add(value);
@@ -77,8 +92,13 @@
                     }
                     return result;
                 }
+
+                // Intersection of two groups
                 intersection(other) {
+                    // Create a new group
                     let result = new Group;
+                    
+                    // Add all the values from the first group that are also in the second group
                     for (let value of this.members) {
                         if (other.has(value)) {
                             result.add(value);
@@ -86,8 +106,13 @@
                     }
                     return result;
                 }
+
+                // Difference of two groups
                 difference(other) {
+                    // Create a new group
                     let result = new Group;
+                    
+                    // Add all the values from the first group that are not in the second group
                     for (let value of this.members) {
                         if (!other.has(value)) {
                             result.add(value);
