@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/2-2.md",
+                "file": "330/notes/2-5.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/2-2.md",
+                "file": "330/notes/2-5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/2-2.md",
+                "file": "330/notes/2-5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/2-2.md"
+                "file": "330/notes/2-5.md"
               }
             }
           }
@@ -147,10 +147,14 @@
   },
   "active": "2462fe8ae7fc4787",
   "lastOpenFiles": [
+    "330/notes/Pasted image 20240205092056.png",
+    "330/notes/Pasted image 20240205092046.png",
+    "330/notes/Pasted image 20240205091230.png",
+    "330/notes/2-2.md",
+    "330/notes/2-5.md",
     "468/ArnavJain_Assignment2/ArnavJain_Assignment2.zip",
     "468/ArnavJain_Assignment2.zip",
     "330/notes/1-31.md",
-    "330/notes/2-2.md",
     "465/2-1.md",
     "447/notes/2-1.md",
     "Untitled.md",
