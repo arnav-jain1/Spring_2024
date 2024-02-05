@@ -24,8 +24,8 @@ function countEs(string) {
     return countChar(string, 'E');
 }
 
-3.
-const func = countChar(string, ch);
+4.
+countEs = (string) => { return countChar(string, 'E'); };
 
 4.
 const countEs = (string) => { return countChar(string, 'E'); };

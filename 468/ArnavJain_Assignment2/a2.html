@@ -1,0 +1,126 @@
+<!-- 
+    Author: Arnav Jain
+    Date: 1/17/23
+    Name: EECS 468 Assignment 2
+    Description: Simple website
+    Inputs: None
+    Outputs: Website with given tasks
+    Collaborators: Just me
+-->
+
+
+<!DOCTYPE html>
+<!-- Standard syntax -->
+
+
+
+<html>
+    <head>
+        <!-- Set Tab title -->
+        <title>Assignment 2</title>
+    </head>
+    <body>
+
+
+        <!-- First title -->
+        <h1>Assignment 2</h1>
+        
+        <!-- Output of Button 1 -->
+        <p id="e21"></p>
+        
+        <!-- Output of Button 2 -->
+        <p id="e22"></p>
+
+
+        <!-- Output of Button 3 -->
+        <p id="e23"></p>
+
+
+        <!-- The JS functions -->
+        <script>
+            e21()
+            e22()
+            e23()
+            
+            // Function for Exercise 2.1
+            function e21() {
+                // Get the element to write to
+                data = document.getElementById("e21");
+                
+                // Write the title
+                data.innerHTML = "Exercise 2.1: <br>";
+                
+                // Loop 10 times, each time writing x, then xx, then xxx, etc.
+                for (let i = 1; i <= 10; i++) {
+                    data.innerHTML += 'x'.repeat(i);
+                    data.innerHTML += '<br>';
+                }
+            }
+
+            // Function for Exercise 2.2
+            function e22() {
+                // Get the element to write to
+                data = document.getElementById("e22");
+
+                // Write the title
+                data.innerHTML = "Exercise 2.2: <br>";
+                
+                // Loop 100 times, each time checking if divisible by 4, 7, or both
+                for (let i = 1; i <= 100; i++) {
+                    if ((i % 4 == 0) && (i % 7 == 0)) {
+                        // If divisible by both, write that
+                        data.innerHTML += "Divisible by both 4 and 7 <br>"
+                    }
+                    else if (i % 4 == 0) {
+                        // If divisible by 4, write that
+                        data.innerHTML += "Divisible by 4 <br>"
+                    }
+                    else if (i % 7 == 0) {
+                        // If divisible by 7, write that
+                        data.innerHTML += "Divisible by 7, but not 4 <br>"
+                    } else {
+                        // If not divisible by either, write the number
+                        data.innerHTML += i + '<br>'
+                    }
+                }
+            }
+
+            // Function for Exercise 2.3
+            function e23() {
+                // Get the element to write to
+                data = document.getElementById("e23");
+                // Write the title
+                data.innerHTML = 'Exercise 2.3: <br>';
+                // Call grid() with the given sizes
+                grid(6)
+                grid(14)
+            }
+
+            // Function for Exercise 2.3 that takes a size and prints a grid of that size
+            function grid(size) {
+                // Get the element to write to
+                data = document.getElementById("e23");
+                // Write the size
+                data.innerHTML += 'Size of ' + size + ': <br>'
+                // Create a boolean to track if the current character is a space or not
+                var space = true
+                
+                // Loop through the grid n by n times, printing a * if space is false, and a space if space is true
+                for (let i = 0; i < size; i++) {
+                    for (let j = 0; j < size; j++) {
+                        if (space == false) {
+                            data.innerHTML += '*'
+                        } else {
+                            data.innerHTML += '&nbsp'
+                        }
+                        // Flip the boolean
+                        space = !space
+                    }
+                    // Flip the boolean and add a new line after each row
+                    space = !space
+                    data.innerHTML += '<br>'
+                }
+            }
+        </script>
+    </body>
+</html>
