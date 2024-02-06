@@ -1,19 +1,17 @@
-import random as r
+def matrixMult(m1, m2, sol, n, x, y, z):
+    if n == 1:
+        sol[x][y] += m1[x][z] * m2[z][y] 
+        return sol 
 
-def main():
-    elements = insertsort([r.randint(0, 100) for i in range(100)])
-    print(elements)
+    mid = n / 2 
 
-def insertsort(unsorted):
-    for i in range(1, len(unsorted)):
-        value = unsorted[i]
+    matrixMult(m1, m2, sol, mid, x, y, z) 
+    matrixMult(m1, m2, sol, mid, x, y + mid, z) 
+    matrixMult(m1, m2, sol, mid, x, y, z + mid) 
+    matrixMult(m1, m2, sol, mid, x, y + mid, z + mid) 
+    matrixMult(m1, m2, sol, mid, x + mid, y, z) 
+    matrixMult(m1, m2, sol, mid, x + mid, y + mid, z) 
+    matrixMult(m1, m2, sol, mid, x + mid, y, z + mid)
+    matrixMult(m1, m2, sol, mid, x + mid, y + mid, z + mid) 
 
-        j = i - 1
-        while j >= 0 and unsorted[j] > value:
-            unsorted[j + 1] = unsorted[j]
-            j -= 1
-        
-        unsorted[j + 1] = value
-    return unsorted
-
-main()
+    return sol 
