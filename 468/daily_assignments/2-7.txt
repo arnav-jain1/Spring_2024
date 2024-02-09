@@ -2,5 +2,5 @@
 2. You see two angry bears
 3. Something's not right: Invalid answer: UP
 4. b,c,h,i.o
-5. h,d,h,k,o
+5. b,d,h,k,o
 6. b,e,q
