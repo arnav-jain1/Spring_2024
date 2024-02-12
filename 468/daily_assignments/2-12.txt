@@ -1,0 +1,17 @@
+<script>
+//Q1: This program turns the background to green 
+// when the g key is being held down. Once it is back up it is no longer green it is transparent
+//Q2: It is waiting for the g key to be pressed and once it is, 
+// turn the background of the website green
+window.addEventListener("keydown", event => {
+if (event.key == "g") {
+document.body.style.background = "green";
+}
+});
+//Q3: When the button is unpressed it turns the background to white/transparent
+window.addEventListener("keyup", event => {
+if (event.key == "g") {
+document.body.style.background = "";
+}
+});
+</script>

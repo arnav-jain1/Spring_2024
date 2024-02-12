@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trapezoid</title>
+</head>
+<body>
+
+    <!-- Canvas element where the trapezoid will be drawn -->
+    <canvas id="trapezoid"></canvas>
+
+    <script>
+
+        // Get the canvas element using its ID and then get the 2D drawing context
+        var canvas = document.getElementById("trapezoid");
+        var ctx = canvas.getContext('2d');
+
+        // Begin a new path for the trapezoid
+        ctx.beginPath();
+        // Move to the starting point of (30, 30)
+        ctx.moveTo(30, 30);
+        // Draw a line from the starting point to the right, top of the trapezoid
+        ctx.lineTo(80, 30);
+        // Draw a line down from the end of the previous line, right side
+        ctx.lineTo(90, 80); 
+        // Draw a line to the left from the bottom right corner, bottom side
+        ctx.lineTo(20, 80); 
+        // Close and Fill the trapezoid
+        ctx.fill();
+
+    </script>
+
+</body>
+</html>
