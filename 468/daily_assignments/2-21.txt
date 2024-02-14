@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <!-- Set title and charset -->
+    <meta charset="UTF-8">
+    <title>2-21</title>
+</head>
+
+
+<body>
+
+    <form>
+        First Name: <input type="text" name="first_name" id="first_name"> (required)<br>
+        Middle Name: <input type="text" name="middle_name" id="middle_name" tabindex=-1> (optional)<br>
+        Last Name: <input type="text" name="last_name" id="last_name"> (required)<br>
+
+
+    </form>
+
+    <script>
+
+        let first_name = document.getElementById("first_name");
+        first_name.focus();
+
+    </script>
+
+</body>
+</html>
