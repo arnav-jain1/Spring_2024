@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0208abb2a6a7ba50",
+        "id": "40490cedb9e3f8d9",
         "type": "tabs",
         "children": [
           {
-            "id": "4a167e635128c847",
+            "id": "cc1d6684deab9c66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/2-14.md",
+                "file": "465/2-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/2-14.md",
+                "file": "465/2-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/2-14.md",
+                "file": "465/2-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/2-14.md"
+                "file": "465/2-15.md"
               }
             }
           }
@@ -146,23 +146,25 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4a167e635128c847",
+  "active": "cc1d6684deab9c66",
   "lastOpenFiles": [
+    "465/Untitled 1.md",
+    "447/notes/2-13.md",
+    "447/notes/Pasted image 20240215124935.png",
+    "447/notes/Pasted image 20240215124900.png",
+    "447/notes/Pasted image 20240215124433.png",
+    "447/notes/Pasted image 20240215122636.png",
+    "447/notes/Pasted image 20240215122546.png",
+    "447/notes/2-15.md",
+    "465/2-15.md",
+    "330/notes/2-14.md",
     "330/notes/Pasted image 20240214094200.png",
     "330/notes/Pasted image 20240214093805.png",
     "330/notes/Pasted image 20240214093010.png",
-    "330/notes/2-14.md",
-    "447/notes/2-13.md",
     "465/2-13.md",
     "447/notes/Pasted image 20240213135554.png",
     "447/notes/Pasted image 20240213130044.png",
-    "447/notes/Pasted image 20240213125002.png",
-    "447/notes/Pasted image 20240213124645.png",
-    "447/notes/Pasted image 20240213124251.png",
-    "447/notes/Pasted image 20240213124213.png",
-    "447/notes/Pasted image 20240213124025.png",
     "330/notes/2-9.md",
-    "330/notes/Pasted image 20240212162348.png",
     "465/2-5.md",
     "447/notes/2-6.md",
     "330/notes/2-7.md",
