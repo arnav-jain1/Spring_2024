@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Go KU!</title>
+    <style>
+        .tab { color: red; }
+        .active { color: blue; }
+    </style>
+</head>
+<body>
+    <tab-panel>
+        <div data-tabname="Rock">Rock ...</div>
+        <div data-tabname="Chalk">Rock Chalk ...</div>
+        <div data-tabname="Jayhawk">Rock Chalk Jayhawk ...</div>
+        <div data-tabname="Go KU!">Rock Chalk Jayhawk - Go KU!</div>
+    </tab-panel>
+    <script>
+        function asTabs(node) {
+            // Convert the children of the node into an array for easier use
+            let tabs = Array.from(node.children);
+            // Creates a container for the buttons so that tabs can be switched
+            let buttonsContainer = document.createElement("div");
+
+            // Go through each tab
+            tabs.forEach((tab, index) => {
+                // Create a button for each tab with the tab's name as the button's text
+                let button = document.createElement("button");
+                button.textContent = tab.getAttribute("data-tabname");
+                
+                // The class "tab" is used to style the buttons and make it apear red
+                button.className = "tab";
+                
+                // Essentially the program is waiting on what is clicked, when something is clicked, everything is hidden and the clicked tab is displayed
+                // Wait for the button to be clicked
+                button.addEventListener("click", () => {
+                    // When the button is clicked, hide all tabs and remove the "active" class from all buttons
+                    tabs.forEach(t => t.style.display = "none");
+                    document.querySelectorAll(".tab").forEach(b => b.className = "tab");
+                    
+                    // Display the tab that corresponds to the clicked button
+                    tab.style.display = "";
+                    // Add the "active" class to the clicked button
+                    button.className = "tab active";
+                });
+                // Add the button to the container
+                buttonsContainer.appendChild(button);
+
+                // The first tab is handled differently than the rest
+                // If the tab is the first tab then 
+                if (index == 0) {
+                    // Set the first tab to be displayed and the first button to be active
+                    tab.style.display = "";
+                    button.className = "tab active";
+                } else {
+                    // Otherwise, hide the tab
+                    tab.style.display = "none";
+                }
+            });
+
+
+            // Put the buttons container at the top
+            node.insertBefore(buttonsContainer, node.firstChild);
+        }
+
+        // Call the function with the tab-panel element
+        asTabs(document.querySelector("tab-panel"));
+    </script>
+</body>
+</html>
