@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/2-14.md",
+                "file": "330/notes/7-BST.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/2-14.md",
+                "file": "330/notes/7-BST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/2-14.md",
+                "file": "330/notes/7-BST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/2-14.md"
+                "file": "330/notes/7-BST.md"
               }
             }
           }
@@ -148,6 +148,19 @@
   },
   "active": "cc1d6684deab9c66",
   "lastOpenFiles": [
+    "330/notes/Pasted image 20240219153026.png",
+    "330/notes/Pasted image 20240219152844.png",
+    "330/notes/Pasted image 20240219152628.png",
+    "330/notes/Pasted image 20240219151810.png",
+    "330/notes/Pasted image 20240219133509.png",
+    "330/notes/2-14.md",
+    "330/notes/7-BST.md",
+    "330/notes/Pasted image 20240219131839.png",
+    "330/notes/2-2.md",
+    "330/notes/1-29.md",
+    "330/notes/1-24.md",
+    "330/notes/2-9.md",
+    "330/notes/Pasted image 20240219124520.png",
     "330/notes/Pasted image 20240219114037.png",
     "330/notes/Pasted image 20240219113929.png",
     "330/notes/Pasted image 20240219113806.png",
@@ -158,21 +171,11 @@
     "465/2-15.md",
     "465/Untitled 1.md",
     "447/notes/Pasted image 20240215124935.png",
-    "447/notes/Pasted image 20240215124900.png",
-    "447/notes/Pasted image 20240215124433.png",
-    "447/notes/Pasted image 20240215122636.png",
-    "447/notes/Pasted image 20240215122546.png",
-    "330/notes/2-14.md",
-    "330/notes/Pasted image 20240214094200.png",
-    "330/notes/Pasted image 20240214093805.png",
-    "330/notes/Pasted image 20240214093010.png",
-    "330/notes/2-9.md",
     "465/2-5.md",
     "447/notes/2-6.md",
     "330/notes/2-7.md",
     "330/notes/1-31.md",
     "330/notes/2-5.md",
-    "330/notes/2-2.md",
     "465/2-1.md",
     "468/daily_assignments/submissions/2-7.pdf",
     "468/daily_assignments/2-7.pdf",
@@ -190,7 +193,6 @@
     "Untitled.md",
     "465/1-30.md",
     "465/1-25.md",
-    "447/notes/1-30.md",
-    "2024-01-30.md"
+    "447/notes/1-30.md"
   ]
 }
