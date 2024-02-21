@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "40490cedb9e3f8d9",
+        "id": "622456335227530a",
         "type": "tabs",
         "children": [
           {
-            "id": "cc1d6684deab9c66",
+            "id": "71e73febfe1f5345",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "465/password cracking.md",
+                "file": "447/notes/1-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "465/password cracking.md",
+                "file": "447/notes/1-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "465/password cracking.md",
+                "file": "447/notes/1-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "465/password cracking.md"
+                "file": "447/notes/1-18.md"
               }
             }
           }
@@ -146,9 +146,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "cc1d6684deab9c66",
+  "active": "71e73febfe1f5345",
   "lastOpenFiles": [
     "447/notes/2-20.md",
+    "447/notes/Pasted image 20240220190531.png",
+    "447/notes/Pasted image 20240220185950.png",
+    "447/notes/image.png",
     "465/password cracking.md",
     "447/notes/Pasted image 20240220130200.png",
     "447/notes/Pasted image 20240220125106.png",
@@ -159,13 +162,10 @@
     "330/notes/Pasted image 20240219151810.png",
     "330/notes/Pasted image 20240219133509.png",
     "330/notes/2-14.md",
-    "330/notes/Pasted image 20240219131839.png",
     "330/notes/2-2.md",
     "330/notes/1-29.md",
     "330/notes/1-24.md",
     "330/notes/2-9.md",
-    "330/notes/Pasted image 20240219124520.png",
-    "330/notes/Pasted image 20240219114037.png",
     "330/Labs.md",
     "447/notes/2-13.md",
     "447/notes/2-15.md",
@@ -192,7 +192,6 @@
     "468/daily_assignments/2-5.md",
     "447/notes/2-1.md",
     "Untitled.md",
-    "465/1-30.md",
-    "465/1-25.md"
+    "465/1-30.md"
   ]
 }
