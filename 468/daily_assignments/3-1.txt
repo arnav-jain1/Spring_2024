@@ -1,0 +1,12 @@
+1. 
+GET /index.html HTTP/1.1
+Host ku.edu
+User-Agent: Safari/537.36
+
+
+2,
+HTTP/1.1 200 OK
+Content-Length: 50000
+Content-Type: text/html
+Last-Modified: Friday, 01 March 2024 9:00:00 GMT
+{Insert document here}
