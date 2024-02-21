@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "447/notes/1-18.md",
+                "file": "330/notes/6.1-Skip_List.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "447/notes/1-18.md",
+                "file": "330/notes/6.1-Skip_List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "447/notes/1-18.md",
+                "file": "330/notes/6.1-Skip_List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "447/notes/1-18.md"
+                "file": "330/notes/6.1-Skip_List.md"
               }
             }
           }
@@ -148,6 +148,18 @@
   },
   "active": "71e73febfe1f5345",
   "lastOpenFiles": [
+    "468/ArnavJain_Assignment4/ArnavJain_Assignment4.zip",
+    "468/ArnavJain_Assignment4.zip",
+    "468/ArnavJain_Assignment4/Rubric 4.docx",
+    "468/ArnavJain_Assignment4/lu148332a3tj.tmp",
+    "330/notes/Pasted image 20240221113536.png",
+    "330/notes/Pasted image 20240221113050.png",
+    "330/notes/Pasted image 20240221112434.png",
+    "330/notes/Pasted image 20240221111842.png",
+    "330/notes/7-BST.md",
+    "330/notes/6.1-Skip_List.md",
+    "330/notes/2-14.md",
+    "447/notes/1-18.md",
     "447/notes/2-20.md",
     "447/notes/Pasted image 20240220190531.png",
     "447/notes/Pasted image 20240220185950.png",
@@ -155,13 +167,7 @@
     "465/password cracking.md",
     "447/notes/Pasted image 20240220130200.png",
     "447/notes/Pasted image 20240220125106.png",
-    "330/notes/7-BST.md",
     "330/notes/Pasted image 20240219153026.png",
-    "330/notes/Pasted image 20240219152844.png",
-    "330/notes/Pasted image 20240219152628.png",
-    "330/notes/Pasted image 20240219151810.png",
-    "330/notes/Pasted image 20240219133509.png",
-    "330/notes/2-14.md",
     "330/notes/2-2.md",
     "330/notes/1-29.md",
     "330/notes/1-24.md",
@@ -186,12 +192,7 @@
     "468/daily_assignments/submissions/2-5.pdf",
     "468/daily_assignments/2-9.pdf",
     "468/daily_assignments/lu34068z7i2y.tmp",
-    "468/daily_assignments/lu33988z7bni.tmp",
-    "468/daily_assignments/2-5.pdf",
-    "468/daily_assignments/lu33917z771z.tmp",
     "468/daily_assignments/2-5.md",
-    "447/notes/2-1.md",
-    "Untitled.md",
-    "465/1-30.md"
+    "447/notes/2-1.md"
   ]
 }
