@@ -1,0 +1,102 @@
+<!-- 
+    Author: Arnav Jain
+    Date: 2/25/23
+    Name: EECS 468 Assignment 5
+    Description: Pie chart
+    Inputs: None
+    Outputs: Website with 2 pie charts
+    Collaborators: Just me
+-->
+
+
+<!DOCTYPE html>
+<!-- Standard syntax -->
+
+
+
+<html>
+    <head>
+        <!-- Set Tab title -->
+        <title>Pie charts</title>
+    </head>
+    <body>
+
+        
+        <h2 style="margin-left: 150px;"> Chart 1</h2>
+        <canvas id="data1" width="400" height="400"></canvas>
+
+        <br>
+        
+        <h2 style="margin-left: 150px;"> Chart 2</h2>
+        <canvas id="data2" width="400" height="400"></canvas>
+
+
+        <!-- The JS functions -->
+        <script>
+
+        // Function to draw the pie chart that takes in the canvas ID and the data (from slides)
+        function draw(canvas, all_data) {
+            // Get the canvas and get the sum of all the counts
+            let cx = document.getElementById(canvas).getContext("2d");
+            let total = all_data.reduce((sum, data) => sum + data.count, 0); 
+
+            // The current angle is set to -0.5 * PI and radius is set to 200
+            let currentAngle = -0.5 * Math.PI;
+            let radius = 200;
+            
+
+            // For each data, calculate the slice angle and draw the slice
+            for (let data of all_data) {
+                // Get the slice angle from the count, divide by the total and convert to radians
+                let sliceAngle = (data.count / total) * 2 * Math.PI;
+                // Draw the slice by starting from the center, drawing an arc and then filling it (from slides)
+                cx.beginPath();
+                cx.arc(200, 200, 200, currentAngle, currentAngle + sliceAngle);
+                cx.lineTo(200, 200);
+                cx.fillStyle = data.color;
+                cx.fill();
+                
+
+                // Get the middle of the slice by adding the current angle and half of the slice angle
+                let textAngle = currentAngle + sliceAngle / 2; 
+                // Get the x and y coordinates of the text by using the text angle and radius and adjusting it by .8
+                let textX = radius + Math.cos(textAngle) * radius * 0.8; 
+                let textY = radius + Math.sin(textAngle) * radius * 0.8;
+                
+                // Set the font and fill the text with the name of the data
+                cx.fillStyle = "black"; 
+                cx.font = "bold 12px Arial";
+                cx.fillText(data.name, textX, textY);
+                
+
+                // Add the slice angle to the current angle and repeat
+                currentAngle += sliceAngle;
+            }
+        }
+
+        // Data 1
+        const data1 = [
+            { name: "Very happy", count: 63, color: "lightblue" },
+            { name: "Happy", count: 104, color: "green" },
+            { name: "Neutral", count: 87, color: "grey" },
+            { name: "Unhappy", count: 51, color: "orange" },
+            { name: "Very unhappy", count: 26, color: "red" },
+            { name: "No comment", count: 18, color: "silver" }
+        ];
+
+        // draw the pie chart
+        draw("data1", data1);
+
+        // Data 2 and draw it
+        const data2 = [
+            { name: "Satisfied", count: 213, color: "lightgreen" },
+            { name: "Neutral", count: 927, color: "grey" },
+            { name: "Unsatisfied", count: 463, color: "tomato" },
+            { name: "No comment", count: 510, color: "silver" }
+        ];
+        
+        draw("data2", data2);
+        </script>
+    </body>
+</html>
+
