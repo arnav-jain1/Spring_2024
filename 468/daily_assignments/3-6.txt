@@ -1,0 +1,27 @@
+1. "node" is one instance of a NodeJs program. "Node" and "Node.Js" are the same thing but Node is the informal name while Node.Js is the formal name
+2. A system to import JavaScript code
+3. Module is a part of the code that specifies its dependencies and what program relies on it
+4. Code that bundles >= 1 modules to be distributed and reused
+5. NPM is where you can download/upload packages from/to and also a program that's a package manager for JS code
+6. A config file with dependencies, name, version, and other information.
+7:
+
+File 1: main2.js
+const echo = require('./echo');
+
+echo(process.argv.join(' '))
+
+
+File 2: echo.js
+function echo(str) {
+  console.log(str);
+}
+module.exports = echo;
+
+
+File 3: package.json
+
+{
+  "name": "echo",
+  "version": "1.0.0",
+}

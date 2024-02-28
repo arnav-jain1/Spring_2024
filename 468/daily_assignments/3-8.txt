@@ -1,0 +1,39 @@
+// 1a. File written. 1b. Failed to write file: -2
+
+
+// 2: 
+// Make sure "fs" is installed
+const {writeFile} = require("fs");
+// writeFile that takes in "graffiti.txt" and writes "I promise the Node was here" as well as the error message if it fails
+writeFile("graffiti.txt", "I promise the Node was here", err => {
+    // If there was an error, log the error message
+    if (err) console.log(`Failed to write file: ${err}`);
+    // Otherwise, log that the file was written
+    else console.log("File written.");
+});
+// Make sure "fs" is installed and import the "promises" object from
+const {readFile} = require("fs").promises;
+// Read the file "graffiti.txt" and log the contents. Use utf8 encoding to get a string instead of a buffer and use .then to handle the promise
+readFile("graffiti.txt", "utf8")
+    .then(text => console.log("The file contains:", text));
+
+
+
+// 3. Server responded with status code 200 
+
+
+// 4. 
+// Require the "https" module and use the "request" method to make a GET request to "eloquentjavascript.net/20_node.html that only accepts text/html
+const {request} = require("https");
+let requestStream = request({
+    hostname: "eloquentjavascript.net",
+    path: "/20_node.html",
+    method: "GET",
+    headers: {Accept: "text/html"}
+}, response => {
+    // Log the status code of the response
+    console.log("Server responded with status code",
+                response.statusCode);
+});
+// End the request
+requestStream.end();

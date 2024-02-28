@@ -1,0 +1,7 @@
+fetch("eloquentjavascript.net/18_http.html", {
+    headers: {"User-Agent": "Safari/537.36"}
+}).then(resp => {
+    console.log(resp.status)
+}).catch(error => {
+    console.error(error)
+});

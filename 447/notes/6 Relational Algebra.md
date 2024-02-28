@@ -103,3 +103,34 @@ Renaming is very useful for example
 Leaves are operands (vars or relations)
 Interior nodes are operators applied to what they connect to
 ![[Pasted image 20240220190531.png]]
+
+## Turing Machine
+Relational algebra is not supposed to have recursion but SQL still does
+Turing machines are not used because optimization becomes undecidable
+
+# Bag
+Bag is like a set but duplicates are allowed
+Every set is a bag but not every bag is a set
+SQL is a bag language 
+Many operations (like projection) are faster on bags than sets
+Every operation is used the same way except without duplicates
+
+## Bag Union
+Element appears the sum of the number of times it appears in set A and B
+	Example: {1,2,1} ∪ {1,1,2,3,1} = {1,1,1,1,1,2,2,3}
+
+## Bag Intersection
+Element appears the minimum amount of times it appears in either set
+	Example: {1,2,1,1} ∩ {1,2,1,3} = {1,1,2}
+
+## Bag difference
+Element appears the difference (a-b) but never less than 0
+	Example: {1,2,1,1} – {1,2,3} = {1,1}.
+
+## Laws
+Bag laws =/= set laws
+Commutative law holds but
+S$\cup$S = S
+if S is a set but 
+B$\cup$B != B
+Because if B = {1} then B$\cup$B= {1,1}
