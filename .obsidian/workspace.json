@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "447/notes/7 SQL 1.md",
+                "file": "330/notes/8-hashing.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "447/notes/7 SQL 1.md",
+                "file": "330/notes/8-hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "447/notes/7 SQL 1.md",
+                "file": "330/notes/8-hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "447/notes/7 SQL 1.md"
+                "file": "330/notes/8-hashing.md"
               }
             }
           }
@@ -161,8 +161,14 @@
   },
   "active": "71e73febfe1f5345",
   "lastOpenFiles": [
-    "447/notes/6 Relational Algebra.md",
+    "330/notes/Pasted image 20240304124819.png",
+    "latex guide.md",
+    "330/notes/8-hashing.md",
+    "330/notes/Pasted image 20240304113319.png",
+    "330/notes/Pasted image 20240304113315.png",
+    "330/notes/Pasted image 20240304113255.png",
     "447/notes/7 SQL 1.md",
+    "447/notes/6 Relational Algebra.md",
     "447/notes/Pasted image 20240227150147.png",
     "447/notes/Pasted image 20240227143347.png",
     "330/notes/6.1-Skip_List.md",
@@ -184,10 +190,7 @@
     "330/notes/2-14.md",
     "447/notes/1-18.md",
     "447/notes/Pasted image 20240220190531.png",
-    "447/notes/Pasted image 20240220185950.png",
-    "447/notes/image.png",
     "465/password cracking.md",
-    "447/notes/Pasted image 20240220130200.png",
     "330/notes/2-2.md",
     "330/notes/1-29.md",
     "330/notes/1-24.md",
@@ -203,8 +206,6 @@
     "330/notes/2-7.md",
     "330/notes/1-31.md",
     "330/notes/2-5.md",
-    "465/2-1.md",
-    "468/daily_assignments/2-9.md",
-    "468/daily_assignments/2-5.md"
+    "465/2-1.md"
   ]
 }
