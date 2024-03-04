@@ -81,4 +81,8 @@ Trial are the steps in between LOOP and UNTIL
 ### Two level Scheme
 Two-level perfect hashing has two levels of tables with universal hashing at both levels
 First level is m=n (collisions exist)
+Second level has different sizes for each slot in the first level so collisions don't exist
+	Second level size of first level + square of the collided elements
+![[Pasted image 20240304133822.png]]
 
+#
