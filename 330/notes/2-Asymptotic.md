@@ -29,3 +29,40 @@ Formal Ω notation: There exists constants so that 0 <= cg(n) <= f(n) for all n 
 
 Formal θ notation: There exists constants so that θ <= c1g(n) <= f(n) <= c2g(n) for all n >= n0
 ![Alt text](image-7.png)
+
+
+* THe big takeaway is that Θ is a precise bound. 
+* O(nlogn) isn't neccessarily faster than O(n^2) because the O(n^2) can be Θ(n)
+
+## o-notation
+
+* o is <  while O is <=
+* If o(n) means that the runtime is strickly slower than n while O(n) means it is slower than or equal to n
+![Alt text](image-8.png)
+* If f(n) = o(g(n)): g(n) > f(n)
+  * If f(n) = O(g(n)): g(n) >= f(n)
+
+## 𝜔-notation (Little omega)
+
+* 𝜔 strict lower bound
+* 𝜔 is > while Ω is >=
+![Alt text](image-9.png)
+
+* If f(n) = 𝜔(g(n)): f(n) > g(n)
+  * If f(n) = Ω(g(n)): f(n) >= g(n)
+
+## Summary
+![Alt text](image-11.png)
+
+## Properties
+
+* Transitive property
+  * If f(n) = O(g(n)) and g(n) = O(h(n)) then f(n) = O(g(n))
+  * Applies to all 5 notations
+* Symmetry
+  * f(n) = θ(g(n)) if and only if g(n) = θ(f(n))
+* Reflexive
+  * f(n) = θ(f(n))
+  * Works for all big notations
+* Transpose symmetry
+![Alt text](image-10.png)

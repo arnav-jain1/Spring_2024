@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/1-31.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71e73febfe1f5345",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "330/notes/2-9.md",
+                "file": "330/notes/6-Data Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/1-31.md",
+                "file": "330/notes/6-Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/1-31.md",
+                "file": "330/notes/6-Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/1-31.md"
+                "file": "330/notes/6-Data Structures.md"
               }
             }
           }
@@ -160,19 +148,20 @@
   },
   "active": "90c2057d09a07dd0",
   "lastOpenFiles": [
+    "330/notes/8-Hashing.md",
+    "330/notes/5-Heapsort.md",
+    "330/notes/6-Data Structures.md",
+    "330/notes/4-Randomized Algos.md",
+    "330/notes/2-7.md",
+    "330/notes/3- Recurrence.md",
+    "330/notes/2-2.md",
+    "330/notes/2-Asymptotic.md",
     "330/notes/1-29.md",
-    "330/notes/1-26.md",
+    "330/notes/1-Sorting.md",
     "330/notes/1-24.md",
     "330/notes/!info.md",
-    "330/notes/2-2.md",
-    "330/notes/2-5.md",
     "447/notes/6 Relational Algebra.md",
-    "330/notes/2-9.md",
-    "330/notes/2-14.md",
     "330/notes/7-BST.md",
-    "330/notes/1-31.md",
-    "330/notes/1-19.md",
-    "330/notes/8-hashing.md",
     "330/notes/Pasted image 20240304133822.png",
     "330/notes/Pasted image 20240304124819.png",
     "latex guide.md",
@@ -204,7 +193,6 @@
     "465/2-13.md",
     "465/2-15.md",
     "465/Untitled 1.md",
-    "465/2-5.md",
-    "447/notes/2-6.md"
+    "465/2-5.md"
   ]
 }
