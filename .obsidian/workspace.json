@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/6-Data Structures.md",
+                "file": "330/notes/8-Hashing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/6-Data Structures.md",
+                "file": "330/notes/8-Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/6-Data Structures.md",
+                "file": "330/notes/8-Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/6-Data Structures.md"
+                "file": "330/notes/8-Hashing.md"
               }
             }
           }
@@ -148,9 +148,16 @@
   },
   "active": "90c2057d09a07dd0",
   "lastOpenFiles": [
+    "330/notes/Pasted image 20240308192713.png",
+    "330/notes/Pasted image 20240308192038.png",
+    "330/notes/Pasted image 20240308191958.png",
+    "330/notes/Pasted image 20240308191640.png",
+    "330/notes/Pasted image 20240308191530.png",
+    "330/notes/Pasted image 20240308191230.png",
+    "330/notes/Pasted image 20240308190139.png",
+    "330/notes/6-Data Structures.md",
     "330/notes/8-Hashing.md",
     "330/notes/5-Heapsort.md",
-    "330/notes/6-Data Structures.md",
     "330/notes/4-Randomized Algos.md",
     "330/notes/2-7.md",
     "330/notes/3- Recurrence.md",
@@ -167,10 +174,7 @@
     "latex guide.md",
     "330/notes/Pasted image 20240304113319.png",
     "330/notes/Pasted image 20240304113315.png",
-    "330/notes/Pasted image 20240304113255.png",
     "447/notes/7 SQL 1.md",
-    "447/notes/Pasted image 20240227150147.png",
-    "447/notes/Pasted image 20240227143347.png",
     "330/notes/6.1-Skip_List.md",
     "468/daily_assignments/submissions/3-1.pdf",
     "468/daily_assignments/3-1.pdf",
@@ -182,9 +186,6 @@
     "468/ArnavJain_Assignment4.zip",
     "468/ArnavJain_Assignment4/Rubric 4.docx",
     "468/ArnavJain_Assignment4/lu148332a3tj.tmp",
-    "330/notes/Pasted image 20240221113536.png",
-    "330/notes/Pasted image 20240221113050.png",
-    "330/notes/Pasted image 20240221112434.png",
     "447/notes/1-18.md",
     "465/password cracking.md",
     "330/Labs.md",
@@ -192,7 +193,6 @@
     "447/notes/2-15.md",
     "465/2-13.md",
     "465/2-15.md",
-    "465/Untitled 1.md",
-    "465/2-5.md"
+    "465/Untitled 1.md"
   ]
 }
