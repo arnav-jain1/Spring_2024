@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <head>
+        <title>Notes</title>
+    </head>
+    <body>
+
+
+        <h1> Notes page for notes</h1>
+        
+        <form id="notesForm">
+            <textarea id="notes" rows="10" cols="50"></textarea><br>
+            <button type="button" onclick="save()">Save</button>
+        </form>
+
+        <script>
+document.addEventListener('DOMContentLoaded', function() {
+    load();
+});
+
+
+function load() {
+    fetch ('http://localhost:8000/notes.txt', {
+        method: 'GET'
+    })
+    .then(response => response.text())
+    .then(text => {
+        document.getElementById('notes').value = text
+    })
+    .catch(error => {
+        document.getElementById('notes').value = 'Error loading notes'
+    })
+}
+
+function save() {
+    const notes = document.getElementById('notes').value;
+    fetch ('http://localhost:8000/notes.txt', {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'text/plain'
+        },
+        body: notes
+    })
+    .catch(error => {
+        alert('Error saving notes')
+    })
+
+}
+
+        </script>
+
+    </body>
+</html>

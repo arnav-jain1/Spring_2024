@@ -145,9 +145,11 @@ Unsuccessful search:
 	Worst case: $\theta(n)$ searches all slots
 	Average case: $\frac{1}{1-a}$, if a is constant then $\theta(1)$ 
 Successful search: More complex but faster since it usually means it isn't there if it is taking long
+
 Insert: Same time as unsuccessful search because finding empty slot
 Delete:
 	Takes $\theta(1)$ but tricky because search might depend on the element
 	You sometimes have to mark it is DELETED so search continues but the load factor is messed up then
+<mark style="background: #FFB86CA6;">Another way is to rearrange the table after the delete so that the elements don't depend on a vacated space and the load space is still applicable</mark>
 ![[Pasted image 20240308192713.png]]
 	
