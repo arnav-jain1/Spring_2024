@@ -24,6 +24,7 @@ Note: For new line latex use \$\$ to surround the equation
 - Set of real numbers `\mathbb{R}` renders as $\mathbb{R}$
 - Set of positive real numbers `\mathbb{R}^+` renders as $\mathbb{R}^+$
 - Set of complex numbers `\mathbb{C}` renders as $\mathbb{C}$
+- Empty set `\emptyset` renders as $\emptyset$ 
 
 ## Quantifiers
 
