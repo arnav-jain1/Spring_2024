@@ -1,0 +1,7 @@
+1. [1,2,3,4]
+2. [1,2,3,4,5,6]
+3. [1,2,3]
+4. Programming paradigm that focuses on the steps and how the program will achieve the task
+5. paradigm that focuses on what needs to be acomplished without describing how and letting the computer determine the rest
+6. The use of objects that have data and specific methods to manipulate data allowing for more modular code
+7. Turning a problem into a bunch of functions that will then manipulate the data together to achieve teh desired result
