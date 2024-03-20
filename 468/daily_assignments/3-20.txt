@@ -8,42 +8,55 @@
     </head>
     <body>
 
-
+        <!-- Header -->
         <h1> Notes page for notes</h1>
         
-        <form id="notesForm">
+        <!-- Form with id Form-->
+        <form id="Form">
+            <!-- Text area 10x50 with id "notes" and a button that triggers save function -->
             <textarea id="notes" rows="10" cols="50"></textarea><br>
             <button type="button" onclick="save()">Save</button>
         </form>
 
         <script>
+// Trigger the load function when the page is loaded
 document.addEventListener('DOMContentLoaded', function() {
     load();
 });
 
 
+// Load function
 function load() {
+    // Use fetch with the GET method to get the notes from the server
     fetch ('http://localhost:8000/notes.txt', {
         method: 'GET'
     })
+    // Then convert the response to text
     .then(response => response.text())
+    // Then set the value of the notes textarea to the text
     .then(text => {
         document.getElementById('notes').value = text
     })
+    // If there is an error, set the value of the notes textarea to "Error loading notes"
     .catch(error => {
         document.getElementById('notes').value = 'Error loading notes'
     })
 }
 
+// Save function
 function save() {
+    // Get the value of the notes textarea
     const notes = document.getElementById('notes').value;
+    // Use fetch with the PUT method to save the notes to the server
     fetch ('http://localhost:8000/notes.txt', {
         method: 'PUT',
+        // header is set to text/plain with body as the notes
         headers: {
             'Content-Type': 'text/plain'
         },
         body: notes
     })
+    // If there is an error, alert "Error saving notes"
     .catch(error => {
         alert('Error saving notes')
     })

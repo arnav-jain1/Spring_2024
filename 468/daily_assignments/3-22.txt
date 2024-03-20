@@ -1,0 +1,8 @@
+1. No because RPC is like calling the function remotely with access to parameters and stuff. The server is much more high level than that
+2. No because SOAP uses XML and this server does not
+3. Yes because there is clearly seperation between the client and the server
+4. Yes because if you isolate any given command, it is understandable what is going on (deletion, reading, changing, creating)
+5. No because there is nothing to allow the control of the cache in the server code
+6. Yes because while there are no layers to the interaction with the server, it is impossible to tell whether there is or not from the perspective of the user. An intermediate can be added while not effecting the user whatsoever
+7. No, you cannot transfer code to extend functionality
+8. Technically no because it is lacking the flexibility when it comes to caching however in a broad sense yes because it satisfies the main objective of a RESTFUL API and has all of the other functionality
