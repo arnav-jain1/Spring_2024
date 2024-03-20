@@ -1,0 +1,24 @@
+N = x 'div' length xs
+    where
+        x = 12
+    xs = [1,2,3,4]
+1. 
+Error 1: Function N begins with capital letter
+Error 2: xs is not on the same indent level as the other variable x
+Error 3: div is surrounded by ' instead of `
+
+2.
+n = x `div` length xs
+    where
+        x = 12
+        xs = [1,2,3,4]
+3.
+3
+
+4. 
+-- n is a function that divides the first arguement with the length of the second arguement
+n = x `div` length xs
+    -- In this function x is set to 12 while xs is an array set to [1,2,3,4]
+    where
+        x = 12
+        xs = [1,2,3,4]
