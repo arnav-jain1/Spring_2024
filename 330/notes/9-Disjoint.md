@@ -53,3 +53,5 @@ Each node has one pointer which points to parent (root points to itself and is r
 ## Path Compression
 In FIND-SET, Path compression makes each node in the path to the element point to the root
 ![[Pasted image 20240320113919.png]]
+Total runtime for Union by rank and path compression is $O(m\alpha(n))$ where $\alpha(n)$ is a really slow growing function so the time complexity is essentially (but not technically) O(m) (linear)
+![[Pasted image 20240320172957.png]]
