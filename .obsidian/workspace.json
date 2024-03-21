@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/9-Disjoint.md",
+                "file": "465/14-SSH.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "d549425fa9471478",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
               }
             }
           },
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/9-Disjoint.md",
+                "file": "465/14-SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/9-Disjoint.md",
+                "file": "465/14-SSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/9-Disjoint.md"
+                "file": "465/14-SSH.md"
               }
             }
           }
@@ -158,8 +169,39 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "90c2057d09a07dd0",
+  "active": "d549425fa9471478",
   "lastOpenFiles": [
+    "465/15-Sniffing Traffic.md",
+    "465/16-Interacting with traffic.md",
+    "465/Pasted image 20240320220108.png",
+    "latex guide.md",
+    "465/13-Cryptography.md",
+    "465/Pasted image 20240320214654.png",
+    "465/14-SSH.md",
+    "465/Pasted image 20240320213558.png",
+    "465/Pasted image 20240320213340.png",
+    "465/11-Password cracking.md",
+    "465/Pasted image 20240320204632.png",
+    "465/8-Exploiting.md",
+    "465/2-13.md",
+    "465/7-SQL.md",
+    "465/6-Vulnerabilities.md",
+    "465/5-Recon.md",
+    "465/2-5.md",
+    "465/Pasted image 20240320192930.png",
+    "465/4-CL_LAMP.md",
+    "465/3-OS.md",
+    "465/2-Networking slides.md",
+    "447/notes/5-Normalization.md",
+    "447/notes/4-Logical design.md",
+    "447/notes/2-6.md",
+    "447/notes/6-Relational Algebra.md",
+    "447/notes/2-1.md",
+    "447/notes/1-25.md",
+    "447/notes/3-ER.md",
+    "447/notes/7-SQL 1.md",
+    "447/notes/2-Intro.md",
+    "447/notes/!in_class_q.md",
     "330/notes/Pasted image 20240320172957.png",
     "468/daily_assignments/submissions/3-29.pdf",
     "468/daily_assignments/submissions/3-27.pdf",
@@ -173,38 +215,6 @@
     "330/notes/Pasted image 20240320113919.png",
     "330/notes/Pasted image 20240320112219.png",
     "330/notes/Pasted image 20240320111311.png",
-    "330/notes/Pasted image 20240320105115.png",
-    "468/daily_assignments/3-27.txt",
-    "latex guide.md",
-    "330/notes/9-Disjoint.md",
-    "330/notes/8-Hashing.md",
-    "330/notes/Pasted image 20240308192713.png",
-    "330/notes/Pasted image 20240308192038.png",
-    "330/notes/Pasted image 20240308191958.png",
-    "330/notes/Pasted image 20240308191640.png",
-    "330/notes/Pasted image 20240308191530.png",
-    "330/notes/Pasted image 20240308191230.png",
-    "330/notes/6-Data Structures.md",
-    "330/notes/5-Heapsort.md",
-    "330/notes/4-Randomized Algos.md",
-    "330/notes/2-7.md",
-    "330/notes/3- Recurrence.md",
-    "330/notes/2-2.md",
-    "330/notes/2-Asymptotic.md",
-    "330/notes/1-29.md",
-    "330/notes/1-Sorting.md",
-    "330/notes/1-24.md",
-    "330/notes/!info.md",
-    "447/notes/6 Relational Algebra.md",
-    "330/notes/7-BST.md",
-    "447/notes/7 SQL 1.md",
-    "330/notes/6.1-Skip_List.md",
-    "447/notes/1-18.md",
-    "465/password cracking.md",
-    "330/Labs.md",
-    "447/notes/2-13.md",
-    "447/notes/2-15.md",
-    "465/2-13.md",
-    "465/2-15.md"
+    "468/daily_assignments/3-27.txt"
   ]
 }

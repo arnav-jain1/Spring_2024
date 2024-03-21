@@ -38,5 +38,43 @@
     * Not as effecient
     * Too much math
 
+
+
+## Codasyl explained
+* Essentially, its like a filing cabinet organized in a super specific way. You get a bunch of records from each query and then you keep going through each query to get the information you want
+
+## System R
 * <mark style="background: #FF5582A6;">System R</mark>First ever relational dbms
 * Ingres: Berkley
+* Included many features
+  * SQL
+  * Query Processing 
+  * Views
+  * etc
+
+## SQL
+* Ingres implemented Quel
+* System R implemented Structured Englished Query Language (SEQUEL) 
+* Oracle V2: First commercially available SQL implementation
+  * Based on System R
+
+## Relational Model
+* Relational Algebra
+* Relational Calculus
+  * Tuple relational calculus
+  * domain relational calculus
+  * Same thing
+
+## NoSQL
+* Problems with SQL:
+  * Not good for large scale web-apps
+  * Don't need perfect real time consistency always (googling)
+* NoSQL = Not only SQL
+* Example: Social networks
+  * Friendships graphs would make a huge table
+  * Query: Find all friends of friends of friends of ... 
+    * Would take forever in SQL since hard to optimize
+* 3 major papers contributed to NoSQL
+  * BigTable (google)
+  * Dynamo (Amazon)
+  * CAP Theorem

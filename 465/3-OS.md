@@ -5,7 +5,7 @@
 
 ## Root and system
 
-* Root and system are the highest privaleged users and provide complete control of the OS
+* Root and system are the highest privileged users and provide complete control of the OS
 * su: superuser- become root
 * sudo: superuser do- Ask root to do something
 
@@ -18,10 +18,13 @@
 
 ## Server
 * A server is a system with special computational power, resources, etc. that provides access to itself to clients
-  * HPC
+	* HPC
 * They are available to the word and have open ports
 
-
+## Commands
+- Usually multiple ways to do the same thing
+- Have flags to specify what to do
+- A command's executable binary code is stored within the computer for later use. Usually /usr/bin/*command*
 ## Tools
 * NMap: Discovers open ports on a network, devices connected + more
 * Metasploit: 
