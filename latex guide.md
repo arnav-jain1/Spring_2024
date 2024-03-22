@@ -8,6 +8,7 @@ Note: For new line latex use \$\$ to surround the equation
 
 - Superscript: `a^2` renders as  a^2 
 - Subscript: `a_2` renders as $a_2$
+	- Use {} for multiple characters: `a_{5a1}` renders as $a_{5a1}$
 
 ## Functions and Logarithms
 

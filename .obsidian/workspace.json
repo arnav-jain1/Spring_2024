@@ -8,24 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90c2057d09a07dd0",
+            "id": "d549425fa9471478",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "465/14-SSH.md",
+                "file": "447/notes/7.4-SQL-4.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d549425fa9471478",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
               }
             }
           },
@@ -41,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "465/14-SSH.md",
+                "file": "447/notes/7.4-SQL-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "465/14-SSH.md",
+                "file": "447/notes/7.4-SQL-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "465/14-SSH.md"
+                "file": "447/notes/7.4-SQL-4.md"
               }
             }
           }
@@ -171,10 +160,15 @@
   },
   "active": "d549425fa9471478",
   "lastOpenFiles": [
+    "latex guide.md",
+    "447/notes/7.3-SQL-3.md",
+    "447/notes/7.2-SQL-2.md",
+    "447/notes/7.1-SQL-1.md",
+    "447/notes/7.4-SQL-4.md",
+    "447/notes/Pasted image 20240321125924.png",
     "465/15-Sniffing Traffic.md",
     "465/16-Interacting with traffic.md",
     "465/Pasted image 20240320220108.png",
-    "latex guide.md",
     "465/13-Cryptography.md",
     "465/Pasted image 20240320214654.png",
     "465/14-SSH.md",
@@ -199,9 +193,6 @@
     "447/notes/2-1.md",
     "447/notes/1-25.md",
     "447/notes/3-ER.md",
-    "447/notes/7-SQL 1.md",
-    "447/notes/2-Intro.md",
-    "447/notes/!in_class_q.md",
     "330/notes/Pasted image 20240320172957.png",
     "468/daily_assignments/submissions/3-29.pdf",
     "468/daily_assignments/submissions/3-27.pdf",
@@ -214,7 +205,6 @@
     "468/haskell fun ",
     "330/notes/Pasted image 20240320113919.png",
     "330/notes/Pasted image 20240320112219.png",
-    "330/notes/Pasted image 20240320111311.png",
     "468/daily_assignments/3-27.txt"
   ]
 }
