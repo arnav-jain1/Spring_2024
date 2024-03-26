@@ -6,7 +6,7 @@ Name: EECS 468 Assignment 6
 Description: Server
 Inputs: Various HTTP requests
 Outputs: A file server
-Collaborators: Just me
+Collaborators: Just me and the slides that were provided 
 
 
 
