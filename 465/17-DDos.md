@@ -25,7 +25,7 @@ Attacker creates a ping with 65510 data octets and sends to the victim. The tota
 
 Nuke attack: Very similar, send a packet that target can't handle thus crashing it.
 
-### DNS amplification
+### DNS amplification attack
 Type of smurf attack
 1. Target open recursive DNS servers (spoofs source IPs)
 2. These servers then spam requests to the victim 
@@ -61,3 +61,4 @@ LOIC (Low Orbit Ion Cannon)- open source network stress testing application
 	String sent in plain text for UDP/TCP or in contents of GET request for HTTP
 	Payload is same for every packet
 	IP is not spoofed
+SLOWORIS

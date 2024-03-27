@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "465/17-DDos.md",
+                "file": "latex guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fa81308a9c4226a6",
+            "id": "9adcb61093f56730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "latex guide.md",
+                "file": "465/17-DDos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,24 +159,27 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d549425fa9471478",
+  "active": "9adcb61093f56730",
   "lastOpenFiles": [
+    "README.md",
+    "latex guide.md",
+    "447/notes/7.1-SQL-1.md",
+    "447/notes/6-Relational Algebra.md",
+    "465/14-SSH.md",
+    "447/notes/!in_class_q.md",
+    "465/17-DDos.md",
     "330/lab7.py",
     "465/Pasted image 20240322170605.png",
     "465/Pasted image 20240322170006.png",
-    "latex guide.md",
-    "465/17-DDos.md",
     "447/notes/7.4-SQL-4.md",
     "447/notes/7.3-SQL-3.md",
     "447/notes/7.2-SQL-2.md",
-    "447/notes/7.1-SQL-1.md",
     "447/notes/Pasted image 20240321125924.png",
     "465/15-Sniffing Traffic.md",
     "465/16-Interacting with traffic.md",
     "465/Pasted image 20240320220108.png",
     "465/13-Cryptography.md",
     "465/Pasted image 20240320214654.png",
-    "465/14-SSH.md",
     "465/Pasted image 20240320213558.png",
     "465/Pasted image 20240320213340.png",
     "465/11-Password cracking.md",
@@ -193,8 +197,6 @@
     "447/notes/5-Normalization.md",
     "447/notes/4-Logical design.md",
     "447/notes/2-6.md",
-    "447/notes/6-Relational Algebra.md",
-    "447/notes/2-1.md",
     "330/notes/Pasted image 20240320172957.png",
     "468/daily_assignments/submissions/3-29.pdf",
     "468/daily_assignments/submissions/3-27.pdf",
@@ -204,7 +206,6 @@
     "468/daily_assignments/lu153530tihfx.tmp",
     "468/daily_assignments/3-29.txt",
     "468/haskell fun /test.hs",
-    "468/haskell fun ",
-    "468/daily_assignments/3-27.txt"
+    "468/haskell fun "
   ]
 }

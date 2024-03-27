@@ -6,7 +6,7 @@ Note: For new line latex use \$\$ to surround the equation
 
 ## Superscript and Subscript
 
-- Superscript: `a^2` renders as  a^2 
+- Superscript: `a^2` renders as  $a^2$
 - Subscript: `a_2` renders as $a_2$
 	- Use {} for multiple characters: `a_{5a1}` renders as $a_{5a1}$
 
@@ -26,7 +26,9 @@ Note: For new line latex use \$\$ to surround the equation
 - Set of positive real numbers `\mathbb{R}^+` renders as $\mathbb{R}^+$
 - Set of complex numbers `\mathbb{C}` renders as $\mathbb{C}$
 - Empty set `\emptyset` renders as $\emptyset$ 
-
+- Set of numbers  `\{1, 2, 3, 4, 5\}` renders as $\{1, 2, 3, 4, 5 \}$
+- Ellipses `\ldots` renders as $\ldots$  
+	- `\cdots`, `\vdots`, and `\ddots` render as $\cdots$ $\vdots$ and $\ddots$ respectively
 ## Quantifiers
 
 - Existential: `\exists` renders as $\exists$
