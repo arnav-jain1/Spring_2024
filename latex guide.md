@@ -42,6 +42,7 @@ Note: For new line latex use \$\$ to surround the equation
 - Equivalent: `\equiv` renders as $\equiv$
 - Implies: `\Rightarrow` renders as $\Rightarrow$
 - If and Only If (Iff): `\Leftrightarrow` renders as $\Leftrightarrow$
+- Infinity: `$\infty$` renders as $\infty$ 
 
 ## Operators
 
