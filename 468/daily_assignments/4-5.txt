@@ -1,0 +1,11 @@
+1.
+squares :: Int -> Int
+squares n = sum [x^2 | x <- [1..n]]
+squares 100
+
+OR 
+
+(\n -> sum [x^2 | x -> [1..n]]) 100
+2. 
+pyths :: Int -> [(Int, Int, Int)]
+pyths n = [(x, y, z) | x <- [1..n], y <- [1..n], z <- [1..n], x^2+y^2 == z^2 ]
