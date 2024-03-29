@@ -38,7 +38,7 @@ Memchached amplification:
 	These servers then send requests to the victim 
 	For 1 byte sent by the attacker, 51KB were sent to victim 
 
-### SYN Flood
+### SYN Flood (sloworis attack)
 Attacker sends a bunch of TCP/SYN packets (with forged sender address)
 Victim machine handles it like a connection request (remember the 3 way handshake)
 Victim machine then waits for the final ACK packet but it never comes
@@ -61,4 +61,29 @@ LOIC (Low Orbit Ion Cannon)- open source network stress testing application
 	String sent in plain text for UDP/TCP or in contents of GET request for HTTP
 	Payload is same for every packet
 	IP is not spoofed
-SLOWORIS
+Trin00
+Tribe flood network
+
+
+
+# Botnets
+Compromised machines controlled by a bad actor 
+Mechanisms of control:
+	Centralized: Command and control server
+		Every computer listens to a central server with a shifting dns
+	decentralized: peer to peer
+		Each device communicates to a different device giving each other info/data
+## Mirai
+200k-300k bots
+Targets IoT devices using default login info
+Used to DDoS
+Code is now open source
+
+## Nugache
+Trojan that compromises host machine 
+Computes list of peers 
+Has a P2P mechanism to update, attack
+
+# Detection
+Easiest way to detect an attack is to have a network sniffer on the target machine
+Block IP addresses sending a ton of packets

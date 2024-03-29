@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/10-Graphs.md",
+                "file": "465/19-IDS.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/10-Graphs.md",
+                "file": "465/19-IDS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/10-Graphs.md",
+                "file": "465/19-IDS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/10-Graphs.md"
+                "file": "465/19-IDS.md"
               }
             }
           }
@@ -161,16 +161,22 @@
   },
   "active": "9adcb61093f56730",
   "lastOpenFiles": [
+    "465/15-Sniffing Traffic.md",
+    "465/16-Interacting with traffic.md",
+    "465/17-DDos.md",
+    "465/19-IDS.md",
+    "465/Pasted image 20240328172615.png",
+    "465/Pasted image 20240328172541.png",
+    "330/notes/10-Graphs.md",
+    "330/notes/Pasted image 20240328170739.png",
+    "330/notes/Pasted image 20240328165353.png",
+    "330/notes/Pasted image 20240328164908.png",
     "330/notes/Pasted image 20240328155129.png",
     "330/notes/Pasted image 20240328155105.png",
     "330/notes/Pasted image 20240328153414.png",
     "330/notes/Pasted image 20240328151813.png",
     "latex guide.md",
-    "330/notes/10-Graphs.md",
     "330/notes/Pasted image 20240328141327.png",
-    "330/notes/Pasted image 20240328140155.png",
-    "330/notes/Pasted image 20240328134357.png",
-    "330/notes/Pasted image 20240328133558.png",
     "447/notes/7.4-SQL-4.md",
     "468/daily_assignments/submissions/4-5.pdf",
     "468/daily_assignments/submissions/4-3.pdf",
@@ -185,16 +191,10 @@
     "447/notes/7.2-SQL-2.md",
     "447/notes/7.1-SQL-1.md",
     "447/notes/6-Relational Algebra.md",
-    "465/17-DDos.md",
     "README.md",
     "465/14-SSH.md",
     "447/notes/!in_class_q.md",
     "330/lab7.py",
-    "465/Pasted image 20240322170605.png",
-    "465/Pasted image 20240322170006.png",
-    "447/notes/Pasted image 20240321125924.png",
-    "465/15-Sniffing Traffic.md",
-    "465/16-Interacting with traffic.md",
     "465/13-Cryptography.md",
     "465/11-Password cracking.md",
     "465/8-Exploiting.md",
@@ -205,7 +205,6 @@
     "465/2-5.md",
     "465/4-CL_LAMP.md",
     "465/3-OS.md",
-    "465/2-Networking slides.md",
-    "447/notes/5-Normalization.md"
+    "465/2-Networking slides.md"
   ]
 }

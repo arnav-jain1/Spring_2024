@@ -108,3 +108,49 @@ Uses same 3 colors
 Psuedocode: 
 ![[Pasted image 20240328155129.png]]
 Running time: $\theta(V+E)$ 1-6 in DFS Once per visit so $\theta(V)$ and 5-6 in visit is $\theta(E)$ 
+
+
+# Paths and cycles
+In a directed graph , 
+	Path: length of a sequence of verts that are connected by edges
+		Path (1,2,4,5) with length 4
+	Cycle: A path where the first and the last element are the same
+		Note: must have 1 edge in the path
+		Cycle: (1,2,4,5,1)
+![[Pasted image 20240328164908.png]]
+
+<mark style="background: #FF5582A6;">Directed acyclic graph (DAG)</mark>: Directed group with no cycles
+
+# Topological sort
+Linear ordering of all vertices of a DAG so that if there is an edge (u,v) then u appears before v in the ordering
+Note:
+	Sort for a DAG ONLY
+	Not the same as other sorting algorithms
+
+Used to sequence tasks with dependencies 
+
+DFS can be used to do it in $\theta(V+E)$ time
+![[Pasted image 20240328165353.png]]
+Verts will appear in the reverse order of finish times (v.f)
+Intuition: If a vertex is finished (colored black) then all of its dependencies must be finished (colored black)
+
+# Connected components
+(undirected graph)
+
+A vertex is <mark style="background: #FF5582A6;">reachable</mark> if there is a path from another vertex to itself
+Connected component: Subset of vertex set in which all verticies in the subset are reachable from each other
+Connected: Only one connected component G = V where G is the connected component
+
+## Method 1: Graph search
+1. BFS/DFS starts with some vertex s and discovers all verts discoverable by s thus making a connected component 
+2. If there are more verts t, discover all verts reachable by t creating another connected component
+3. Repeat step 2
+$\theta(V + E)$ same as BFS/DFS
+
+## Method 2: Disjoint Set 
+3 methods: Make-set, find-set, and union
+1. Algorithim makes a new set for each vertex
+2. Merge the sets for each edge
+3. Repeat till all sets are found
+$\theta(V+\alpha(V)E)$ where $\alpha(V) \le 4$ for most graphs (find-set time complexity)
+![[Pasted image 20240328170739.png]]
