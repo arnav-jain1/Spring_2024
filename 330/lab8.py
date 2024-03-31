@@ -26,8 +26,8 @@ class dfsnode:
 def bfs_func():
     # All verts and edges according to graph 1
     bfs = Graph()
-    vert = {"s", "t", "u", "v", "w", "x", "y", "z", "r"}
-    edges = {("s", "r"), ("s", "u"), ("s", "v"), ("t", "u"), ("t", "r"), ("y", "u"), ("y", "v"), ("r", "w"), ("v", "w"), ('w', 'z'), ("x", "y"), ("x", "z"), ('x', 'w')}
+    vert = {"r", "s", "t", "u", "v", "w", "x", "y", "z"}
+    edges = {("r", "s"), ("s", "u"), ("s", "v"), ("t", "u"), ("r", "t"), ("u", "y"), ("v", "y"), ("r", "w"), ("v", "w"), ('w', 'z'), ("x", "y"), ("x", "z"), ('w', 'x')}
 
     # FOr each node, add it to the dict and create it's key (with value as an empty set) in the edges dict
     for node in vert:
@@ -81,44 +81,66 @@ def bfs_search(graph, s):
 
 
 def dfs_func():
+    # Get the graph from the slides
     dfs = Graph()
     verts = {'u', 'v', 'w', 'x', 'y', 'z'}
     edges = {('u','v'), ('u','x'), ('x','v'), ('v','y'), ('y','x'), ('w','y'), ('w','z'), ('z','z')}
 
+    # Add the info to the graph object in the same way as BFS 
     for node in verts:
         dfs.v[node] = dfsnode()
         dfs.adj[node] = set()
-    
     for edge in edges:
         u, v = edge
         dfs.adj[u].add(v)
+    
+    # Create a global time variable for visit to use
     global time
     time = 0
 
+    # Visit function that takes in a letter
     def dfs_visit(uletter):
         global time
+        # set u to be the object that corresponds with the letter
         u = dfs.v[uletter]
+        # Increment the time and then set the discovered and color vars then print discovered
         time = time + 1
         u.d = time
         u.color = 'grey'
+        print(f"Discovered {uletter}")
+        
+        # Go through everything it is adjacent to
         for vletter in dfs.adj[uletter]:
             v = dfs.v[vletter]
+            # If the node that it is adj to is undiscovered, set the undiscovered parent to the u and visit it
             if v.color == 'white':
                 v.p = u
                 dfs_visit(vletter)
+        # Increment time again and set finished and color vars
         time = time + 1
         u.f = time
         u.color = 'black'
+
+    # Call the visit function with the starting node to be 'u
+    dfs_visit('u')
+
     
+    # Go through each vert and if there are any that are undiscovered, call the visit function with them this is where some randomization could happen because verts is a set. z might be chosen first or w
     for u in verts:
         if dfs.v[u].color == 'white':
             dfs_visit(u)
 
+    # Print out the discovery and finished times
+    print("Discovery and finish time:")
+    for u in verts:
+        print(f"{u} was discovered at time {dfs.v[u].d} and was finished at time {dfs.v[u].f}")
 
 
 
 
-    
-
+# Call the functions
+print("BFS search with order and depth:")
 bfs_func()
+print()
+print("DFS search in order of discovery, NOTE: May be a little randomized because after choosing u as its first element it will pick a random one out of the rest")
 dfs_func()
