@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "465/19-IDS.md",
-                "mode": "source",
+                "file": "330/notes/10-Graphs.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2bd8c422b56ee90f",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "465/19-IDS.md",
+                "file": "330/notes/10-Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "465/19-IDS.md",
+                "file": "330/notes/10-Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "465/19-IDS.md"
+                "file": "330/notes/10-Graphs.md"
               }
             }
           }
@@ -161,9 +162,11 @@
   },
   "active": "9adcb61093f56730",
   "lastOpenFiles": [
+    "330/lab8.py",
+    "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
     "465/16-Interacting with traffic.md",
-    "465/17-DDos.md",
+    "465/14-SSH.md",
     "465/19-IDS.md",
     "465/Pasted image 20240328172615.png",
     "465/Pasted image 20240328172541.png",
@@ -192,7 +195,6 @@
     "447/notes/7.1-SQL-1.md",
     "447/notes/6-Relational Algebra.md",
     "README.md",
-    "465/14-SSH.md",
     "447/notes/!in_class_q.md",
     "330/lab7.py",
     "465/13-Cryptography.md",
