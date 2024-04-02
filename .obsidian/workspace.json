@@ -25,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/10-Graphs.md",
-                "mode": "preview",
+                "file": "330/notes/11-MST.md",
+                "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "a81ae9328bed5702",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2bd8c422b56ee90f",
@@ -99,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/10-Graphs.md",
+                "file": "330/notes/11-MST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/10-Graphs.md",
+                "file": "330/notes/11-MST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/10-Graphs.md"
+                "file": "330/notes/11-MST.md"
               }
             }
           }
@@ -160,18 +169,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9adcb61093f56730",
+  "active": "a81ae9328bed5702",
   "lastOpenFiles": [
+    "330/notes/Pasted image 20240401201153.png",
+    "330/notes/Pasted image 20240401200952.png",
+    "330/notes/Pasted image 20240401200942.png",
+    "468/daily_assignments/submissions/4-5.pdf",
+    "468/daily_assignments/submissions/4-3.pdf",
+    "468/daily_assignments/submissions/4-1.pdf",
+    "468/daily_assignments/4-5.pdf",
+    "468/daily_assignments/lu231855kq1e.tmp",
+    "468/daily_assignments/4-3.pdf",
+    "468/daily_assignments/lu231215kmyj.tmp",
+    "468/daily_assignments/4-1.pdf",
+    "468/daily_assignments/lu230535ki2v.tmp",
+    "330/notes/Pasted image 20240401111918.png",
+    "330/notes/10-Graphs.md",
+    "330/notes/11-MST.md",
     "468/ArnavJain_Assignment5/ArnavJain_Assignment5.zip",
-    "468/ArnavJain_Assignment7/ArnavJain_Assignment7.zip",
-    "468/ArnavJain_Assignment7.zip",
-    "468/ziiVkSbl",
     "468/ArnavJain_Assignment7/image.png",
     "468/ArnavJain_Assignment7/done.md",
-    "468/ArnavJain_Assignment7/main.hs",
-    "468/ArnavJain_Assignment7/main.h",
-    "468/ArnavJain_Assignment7",
-    "330/lab8.py",
     "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
     "465/16-Interacting with traffic.md",
@@ -179,19 +196,12 @@
     "465/19-IDS.md",
     "465/Pasted image 20240328172615.png",
     "465/Pasted image 20240328172541.png",
-    "330/notes/10-Graphs.md",
     "330/notes/Pasted image 20240328170739.png",
     "330/notes/Pasted image 20240328165353.png",
     "330/notes/Pasted image 20240328164908.png",
     "330/notes/Pasted image 20240328155129.png",
-    "330/notes/Pasted image 20240328155105.png",
-    "330/notes/Pasted image 20240328153414.png",
-    "330/notes/Pasted image 20240328151813.png",
     "latex guide.md",
     "447/notes/7.4-SQL-4.md",
-    "468/daily_assignments/submissions/4-5.pdf",
-    "468/daily_assignments/submissions/4-3.pdf",
-    "468/daily_assignments/submissions/4-1.pdf",
     "447/notes/7.3-SQL-3.md",
     "447/notes/7.2-SQL-2.md",
     "447/notes/7.1-SQL-1.md",
@@ -206,7 +216,6 @@
     "465/6-Vulnerabilities.md",
     "465/5-Recon.md",
     "465/2-5.md",
-    "465/4-CL_LAMP.md",
-    "465/3-OS.md"
+    "465/4-CL_LAMP.md"
   ]
 }
