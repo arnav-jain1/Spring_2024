@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "447/notes/9-Views.md",
+                "file": "447/notes/10-Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "447/notes/9-Views.md",
+                "file": "447/notes/10-Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "447/notes/9-Views.md",
+                "file": "447/notes/10-Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "447/notes/9-Views.md"
+                "file": "447/notes/10-Index.md"
               }
             }
           }
@@ -161,19 +161,27 @@
   },
   "active": "9adcb61093f56730",
   "lastOpenFiles": [
+    "447/notes/Pasted image 20240409105200.png",
+    "447/notes/Pasted image 20240409104602.png",
+    "330/notes/11-MST.md",
+    "447/notes/10-Index.md",
+    "447/notes/10-",
+    "330/notes/10-Graphs.md",
+    "330/notes/9-Disjoint Sets.md",
+    "330/notes/8-Hashing.md",
+    "447/hw/hw4.md",
+    "447/hw/hw4.pdf",
+    "447/notes/9-Views.md",
     "447/notes/Pasted image 20240402163206.png",
     "447/notes/Pasted image 20240402162937.png",
     "447/notes/Pasted image 20240402153601.png",
     "447/notes/Pasted image 20240402153139.png",
     "447/notes/8-ActiveDB.md",
-    "447/notes/9-Views.md",
-    "330/notes/11-MST.md",
     "330/notes/Pasted image 20240402103338.png",
     "330/notes/Pasted image 20240402100835.png",
     "330/notes/Pasted image 20240402100253.png",
     "330/notes/Pasted image 20240401201153.png",
     "330/notes/Pasted image 20240401200952.png",
-    "330/notes/Pasted image 20240401200942.png",
     "468/daily_assignments/submissions/4-5.pdf",
     "468/daily_assignments/submissions/4-3.pdf",
     "468/daily_assignments/submissions/4-1.pdf",
@@ -182,10 +190,6 @@
     "468/daily_assignments/4-3.pdf",
     "468/daily_assignments/lu231215kmyj.tmp",
     "468/daily_assignments/4-1.pdf",
-    "468/daily_assignments/lu230535ki2v.tmp",
-    "330/notes/Pasted image 20240401111918.png",
-    "330/notes/10-Graphs.md",
-    "468/ArnavJain_Assignment5/ArnavJain_Assignment5.zip",
     "468/ArnavJain_Assignment7/done.md",
     "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
@@ -202,10 +206,6 @@
     "447/notes/!in_class_q.md",
     "465/13-Cryptography.md",
     "465/11-Password cracking.md",
-    "465/8-Exploiting.md",
-    "465/2-13.md",
-    "465/7-SQL.md",
-    "465/6-Vulnerabilities.md",
-    "465/5-Recon.md"
+    "465/8-Exploiting.md"
   ]
 }
