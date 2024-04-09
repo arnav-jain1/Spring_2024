@@ -32,8 +32,8 @@ find x xs = map snd (filter(\(a,b) -> a == x) xs)
 
 -- Positions function that takes in a comparable var and outputs a list of ints
 positions :: Eq a => a -> [a] -> [Int]
--- The input ns is zipped with its index and then all of the indices where the value equals the input n are chosen
-positions n ns = [i | (i,x) <- zip [1..length ns] ns, x == n ]
+-- The input ns is zipped with its index (from 0 to length -1) and then all of the indices where the value equals the input n are chosen
+positions n ns = [i | (i,x) <- zip [0..(length ns) - 1] ns, x == n ]
 
 
 -- scalar prod function takes 2 lists of Ints and outputs one Int

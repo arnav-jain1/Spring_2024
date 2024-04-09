@@ -1,0 +1,12 @@
+1)
+leaves :: Tree a -> Int
+-- Base case if it is leaf return one, otherwise recurse of left and right subtree
+leaves (Leaf a) = 1
+leaves (Node lhs rhs) = leaves (lhs) + leaves (rhs)
+
+2)
+balanced :: Tree a -> Bool
+-- if the tree is a leaf then return true
+balanced (Leaf a) = True
+-- otherwise check if the amount of leaves in the lhs is the same as the leaves in rhs
+balanced (Node lhs rhs) = leaves lhs == leaves rhs

@@ -1,0 +1,44 @@
+1a)
+sum :: [Int] -> Int
+
+1b)
+sum' []     =
+sum' (x:xs) = 
+
+1c) 
+sum' []     = 0
+sum' (x:xs) =  
+
+1d)
+sum' []     = 0
+sum' (x:xs) = x + sum xs 
+
+1e)
+sum :: [Int] -> Int
+sum' [] = 0
+sum' (x:xs) = x + sum xs 
+-- No change because no simplification
+
+
+
+2a)
+sumdown :: Int -> Int
+
+2b)
+sumdown 0   =
+sumdown n   =
+
+2c) 
+sumdown 0   = 0
+sumdown n   =
+
+2d)
+sumdown 0   = 0
+sumdown n   = n + sumdown (n-1)
+
+2e)
+sumdown :: Int -> Int
+sumdown 0   = 0
+sumdown n   = n + sumdown (n-1)
+-- No change because no simplification
+
