@@ -34,4 +34,56 @@ Sparse: One index entry per block
 	Records must be clustered 
 	Easier updates
 	![[Pasted image 20240409105200.png]]
-## Primary 
+## Primary vs Secondary Index
+Primary Index:
+	Created for primary key of table
+	Can be sparse
+Secondary Index:
+	Usually Dense
+	Created for unique 
+	Can be created on non-key attribute
+	Ex: <mark style="background: #BBFABBA6;">CREATE INDEX GPAIndex ON STUDENT(GPA)</mark>
+There can be multiple secondary indexes but only one primary
+
+Recap
+Primary index: index structure for primary key of a file that is sorted according to primary key
+![[Pasted image 20240409155303.png]]
+Secondary index: structure built for non-key attribute that is sorted according to primary key
+![[Pasted image 20240409155311.png]]
+
+# B Tree
+
+Tree based index file: Can be primary/secondary, sparse/dense, clustered/unclustered 
+Hierarchy of intervals
+![[Pasted image 20240409155520.png]]
+Height constraint: All leaves at same lowest level
+Fan-out constraint: All nodes (except root) at least half full
+degree (d): min keys an interior node can have
+![[Pasted image 20240409160521.png]]
+![[Pasted image 20240409155740.png]]
+Like a BST but slightly more complex
+
+When adding to a node that is full, you have to propogate up 
+	When it goes to the root, and the root is full, there is a new root of fan out 2 and the tree grows upwards
+If deleting from a tree, you either have to steal or merge with another leaf. Make sure to change the ancestor if doing so
+
+## Time
+How many operations?
+	h the height of tree
+	+1/2 for manipulation
+	Plus O(h) for reorganization if need be
+	-1 if cache the root
+How big is H?
+	$log_{fan-out}{N}$ where N is the number of records
+	B+ tree properties say that fanout is at least d/2 for all non-root nodes
+	Fanout is usually very large
+	4-level tree is usually good
+
+COmplex reorganization usually not implemented 
+	Less than half full is okay
+Most Use b tree
+
+## Endless update
+<mark style="background: #BBFABBA6;">UPDATE Payroll  SET salary = salary * 1.1 WHERE salary >= 100000 </mark>
+This went on infinitely because it would keep finding itself. 
+Solution was to create a "to-do" list so each was only done once
