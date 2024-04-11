@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "447/notes/10-Index.md",
+                "file": "447/notes/9-Views.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "447/notes/10-Index.md",
+                "file": "447/notes/9-Views.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "447/notes/10-Index.md",
+                "file": "447/notes/9-Views.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "447/notes/10-Index.md"
+                "file": "447/notes/9-Views.md"
               }
             }
           }
@@ -161,19 +161,23 @@
   },
   "active": "9adcb61093f56730",
   "lastOpenFiles": [
-    "latex guide.md",
     "447/notes/10-Index.md",
+    "447/notes/9-Views.md",
+    "447/notes/8-ActiveDB.md",
+    "447/notes/11-Transaction.md",
+    "447/notes/7.4-SQL-4.md",
+    "447/notes/12-NoSQL.md",
+    "447/notes/Pasted image 20240411143956.png",
+    "latex guide.md",
     "447/notes/Pasted image 20240409160521.png",
     "447/notes/Pasted image 20240409155740.png",
     "447/notes/Pasted image 20240409155520.png",
     "447/notes/Pasted image 20240409155311.png",
     "447/notes/Pasted image 20240409155303.png",
-    "447/notes/11-Transaction.md",
     "447/notes/Pasted image 20240409125726.png",
     "447/notes/Pasted image 20240409125534.png",
     "447/notes/Pasted image 20240409125412.png",
     "447/notes/Pasted image 20240409105200.png",
-    "447/notes/Pasted image 20240409104602.png",
     "330/notes/11-MST.md",
     "447/notes/10-",
     "330/notes/10-Graphs.md",
@@ -181,8 +185,6 @@
     "330/notes/8-Hashing.md",
     "447/hw/hw4.md",
     "447/hw/hw4.pdf",
-    "447/notes/9-Views.md",
-    "447/notes/8-ActiveDB.md",
     "468/daily_assignments/submissions/4-5.pdf",
     "468/daily_assignments/submissions/4-3.pdf",
     "468/daily_assignments/submissions/4-1.pdf",
@@ -197,14 +199,12 @@
     "465/16-Interacting with traffic.md",
     "465/14-SSH.md",
     "465/19-IDS.md",
-    "447/notes/7.4-SQL-4.md",
     "447/notes/7.3-SQL-3.md",
     "447/notes/7.2-SQL-2.md",
     "447/notes/7.1-SQL-1.md",
     "447/notes/6-Relational Algebra.md",
     "README.md",
     "447/notes/!in_class_q.md",
-    "465/13-Cryptography.md",
-    "465/11-Password cracking.md"
+    "465/13-Cryptography.md"
   ]
 }
