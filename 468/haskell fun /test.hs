@@ -1,3 +1,5 @@
+import Data.List
+
 
 sum' :: [Int] -> Int
 sum' [] = 0
@@ -26,3 +28,55 @@ leaves (Node lhs rhs) = leaves (lhs) + leaves (rhs)
 balanced :: Tree a -> Bool
 balanced (Leaf a) = True
 balanced (Node lhs rhs) = leaves lhs == leaves rhs
+
+
+
+
+type Grid = Matrix Char
+type Matrix a = [Row a]
+type Row a = [a]
+
+boxsize :: Int
+boxsize = 2
+values :: [Char]
+values = ['1'..'9']
+empty :: Char -> Bool
+empty = (== ' ')
+single :: [a] -> Bool
+single [_] = True
+single _ = False
+
+rows :: Matrix a -> [Row a]
+rows m = m
+
+cols :: Matrix a -> [Row a]
+cols m = transpose m
+
+boxs :: Matrix a -> [Row a]
+boxs = unpack . map cols . pack
+        where
+            pack = split . map split
+            split = chop boxsize
+            unpack = map concat . concat
+
+
+valid :: Grid -> Bool
+valid g = all nodups (rows g) &&
+          all nodups (cols g) &&
+          all nodups (boxs g)
+nodups :: Eq a => [a] -> Bool
+nodups [] = True
+nodups (x:xs) = not (elem x xs) && nodups xs
+
+-- choices :: Grid ->  [Char]
+-- choices = map choice v
+--     where
+--         choice v = if empty v then values else [v]
+
+cp :: [[a]] -> [[a]]
+cp [] = [[]]
+cp (xs:xss) = [y:ys | y <- xs, ys <- cp xss]
+
+chop :: Int -> [a] -> [[a]]
+chop n [] = []
+chop n xs = take n xs : chop n (drop n xs)

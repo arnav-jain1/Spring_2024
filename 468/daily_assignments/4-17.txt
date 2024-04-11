@@ -1,0 +1,2 @@
+choices :: [a] -> [[a]]
+choices xs = [ n | ns <- subs xs, n <- perms ns]
