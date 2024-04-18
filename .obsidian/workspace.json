@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/12-Shortest Path.md",
+                "file": "468/ArnavJain_Assignment8/output.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "latex guide.md",
+                "file": "468/ArnavJain_Assignment8/output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "latex guide.md",
+                "file": "468/ArnavJain_Assignment8/output.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "latex guide.md"
+                "file": "468/ArnavJain_Assignment8/output.md"
               }
             }
           }
@@ -159,11 +159,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4810c2701c9efad1",
+  "active": "9adcb61093f56730",
   "lastOpenFiles": [
+    "468/ArnavJain_Assignment8/output.pdf",
+    "latex guide.md",
     "468/ArnavJain_Assignment8/a8.hs",
     "468/ArnavJain_Assignment8",
-    "latex guide.md",
     "330/notes/12-Shortest Path.md",
     "330/notes/Pasted image 20240411174307.png",
     "330/notes/Pasted image 20240411172908.png",
@@ -194,7 +195,6 @@
     "468/daily_assignments/4-5.pdf",
     "468/daily_assignments/lu231855kq1e.tmp",
     "468/daily_assignments/4-3.pdf",
-    "468/daily_assignments/lu231215kmyj.tmp",
     "468/ArnavJain_Assignment7/done.md",
     "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
