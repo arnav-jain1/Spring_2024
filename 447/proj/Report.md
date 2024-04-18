@@ -45,9 +45,8 @@ Note: pg stands for per game; fgp, 3pp, and ftp stand for field goal percentage,
 
 
 Implementation:
-The database was implemented using MariaDB on the KU cycle servers. It was connected to the html web page using php. 
-In order to test and make sure everything was okay, we used the console and debugger tab in our browser to make sure the database was connected.
-Then, we tried various queries and made sure they matched when putting them in MariaDB directly. 
+A simple HTML site with a form submission allows the user to select a query to execute. We used mysqli to connect to our database. Submission of the query selection form on our HTML site sends a POST to our PHP. A switch case is used to identify which specific query is to be made. After the execution of our switch case, a predefined sql request is made to MariaDB.  The result of this request is processed to display the values in each column grabbed from MariaDB.
+In order to test and make sure everything was okay, we used the console and debugger tab in our browser to make sure the database was connected. Then, we tried various queries and made sure they matched when putting them in MariaDB directly. 
 We only used php, html, and MariaDB. There was no code that was imported.
 In order to turn the ER to a database, we decided to consolidate all star and make it a true/false var of the table 'Player'
 
