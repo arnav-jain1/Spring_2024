@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "468/ArnavJain_Assignment8/output.md",
+                "file": "447/proj/Report.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "468/ArnavJain_Assignment8/output.md",
+                "file": "447/proj/Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "468/ArnavJain_Assignment8/output.md",
+                "file": "447/proj/Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "468/ArnavJain_Assignment8/output.md"
+                "file": "447/proj/Report.md"
               }
             }
           }
@@ -161,6 +161,12 @@
   },
   "active": "9adcb61093f56730",
   "lastOpenFiles": [
+    "447/proj/Pasted image 20240417215917.png",
+    "447/proj/Pasted image 20240417215915.png",
+    "447/hw/hw4.md",
+    "447/proj/Report.md",
+    "447/proj",
+    "468/ArnavJain_Assignment8/output.md",
     "468/ArnavJain_Assignment8/output.pdf",
     "latex guide.md",
     "468/ArnavJain_Assignment8/a8.hs",
@@ -181,20 +187,16 @@
     "447/notes/Pasted image 20240411143956.png",
     "447/notes/Pasted image 20240409160521.png",
     "447/notes/Pasted image 20240409155740.png",
-    "447/notes/Pasted image 20240409155520.png",
     "330/notes/11-MST.md",
     "447/notes/10-",
     "330/notes/10-Graphs.md",
     "330/notes/9-Disjoint Sets.md",
     "330/notes/8-Hashing.md",
-    "447/hw/hw4.md",
     "447/hw/hw4.pdf",
     "468/daily_assignments/submissions/4-5.pdf",
     "468/daily_assignments/submissions/4-3.pdf",
     "468/daily_assignments/submissions/4-1.pdf",
     "468/daily_assignments/4-5.pdf",
-    "468/daily_assignments/lu231855kq1e.tmp",
-    "468/daily_assignments/4-3.pdf",
     "468/ArnavJain_Assignment7/done.md",
     "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
@@ -204,8 +206,6 @@
     "447/notes/7.3-SQL-3.md",
     "447/notes/7.2-SQL-2.md",
     "447/notes/7.1-SQL-1.md",
-    "447/notes/6-Relational Algebra.md",
-    "README.md",
-    "447/notes/!in_class_q.md"
+    "447/notes/6-Relational Algebra.md"
   ]
 }
