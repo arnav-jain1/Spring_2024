@@ -1,0 +1,30 @@
+-- Takes in a string and calls sequence with putchar on every element in the input string
+putStr' :: String -> IO ()
+putStr' ns = sequence_ [putChar n | n <- ns]
+
+-- Gets the char without showing what it is in the terminal
+getCh :: IO Char
+getCh = do 
+            hSetEcho stdin False
+            x <- getChar
+            hSetEcho stdin True
+            return x
+-- main function that outputs 2 strings an inputs one from getPass func
+main :: IO ()
+main = do
+        putStr' "Password: "
+        password <- getPass ""
+        putStr' ("Length of input: " ++ show (length password) ++ "\n")
+
+-- Gets a letter using getCh and if the letter is '\n' it returns otherwise it prints * and recurses with the letter + the input string
+getPass :: String -> IO String
+getPass pass = do
+    letter <- getCh
+    if letter /= '\n' then
+        do
+            putStr' ['*']
+            getPass (pass ++ [letter])
+    else 
+        do
+            putStr' ['\n']
+            return pass

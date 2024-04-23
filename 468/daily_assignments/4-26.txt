@@ -1,0 +1,23 @@
+
+
+problem1 :: IO ()
+problem1 = 
+    putStrLn "Hello World!"
+
+problem2 :: IO ()
+problem2 = 
+    do 
+        putStr "Hello "
+        putStr "World!"
+        putChar '\n'
+
+problem3 :: IO ()
+problem3 = do
+    let str = concat ["Hello ", "World!\n"]
+    putStr str
+
+main :: IO ()
+main = do 
+        problem1
+        problem2
+        problem3

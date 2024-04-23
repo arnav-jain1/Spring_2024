@@ -1,5 +1,5 @@
 import Data.List
-
+import System.IO
 
 sum' :: [Int] -> Int
 sum' [] = 0
@@ -80,3 +80,34 @@ cp (xs:xss) = [y:ys | y <- xs, ys <- cp xss]
 chop :: Int -> [a] -> [[a]]
 chop n [] = []
 chop n xs = take n xs : chop n (drop n xs)
+
+putStr' :: String -> IO ()
+putStr' ns = sequence_ [putChar n | n <- ns]
+
+putStrLn :: String -> IO ()
+putStrLn ns = putStr' (ns ++ "\n")
+
+getCh :: IO Char
+getCh = do 
+            hSetEcho stdin False
+            x <- getChar
+            hSetEcho stdin True
+            return x
+
+main :: IO ()
+main = do
+        putStr' "Password: "
+        password <- getPass ""
+        putStr' ("Length of input: " ++ show (length password) ++ "\n")
+
+getPass :: String -> IO String
+getPass pass = do
+    letter <- getCh
+    if letter /= '\n' then
+        do
+            putStr' ['*']
+            getPass (pass ++ [letter])
+    else 
+        do
+            putStr' ['\n']
+            return pass
