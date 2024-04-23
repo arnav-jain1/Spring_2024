@@ -1,3 +1,12 @@
+{-
+Author: Arnav Jain
+Date: 4/22/24
+Name: EECS 468 Assignment 9 
+Description: Nim game
+Inputs: Optional nim array
+Outputs: Nim
+Collaborators: Me
+-}
 -- Warning ignores and inputs
 {-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
 {-# HLINT ignore "Use when" #-}

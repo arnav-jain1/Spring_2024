@@ -23,9 +23,11 @@
             "id": "9adcb61093f56730",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "447/proj/Pasted image 20240417215917.png"
+                "file": "468/ArnavJain_Assignment9/test.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "447/proj/Pasted image 20240417215917.png",
+                "file": "468/ArnavJain_Assignment9/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "447/proj/Pasted image 20240417215917.png",
+                "file": "468/ArnavJain_Assignment9/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "447/proj/Pasted image 20240417215917.png"
+                "file": "468/ArnavJain_Assignment9/test.md"
               }
             }
           }
@@ -159,10 +161,11 @@
   },
   "active": "9adcb61093f56730",
   "lastOpenFiles": [
+    "468/ArnavJain_Assignment9/test.pdf",
+    "447/proj/Pasted image 20240417215917.png",
     "468/daily_assignments/4-28.txt",
     "468/daily_assignments/4-26.txt",
     "447/proj/Pasted image 20240417215915.png",
-    "447/proj/Pasted image 20240417215917.png",
     "447/proj/Report.md",
     "447/proj/reportfinal.pdf",
     "447/hw/hw4.md",
@@ -194,7 +197,6 @@
     "330/notes/8-Hashing.md",
     "447/hw/hw4.pdf",
     "468/daily_assignments/submissions/4-5.pdf",
-    "468/daily_assignments/submissions/4-3.pdf",
     "468/ArnavJain_Assignment7/done.md",
     "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
