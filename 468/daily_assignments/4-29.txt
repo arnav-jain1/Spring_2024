@@ -1,0 +1,19 @@
+1. 0, 1, 2
+2. [0,-1,2,8,-5]
+3.
+
+n=0:
+  xs !! 0 == head (drop 0 xs)
+  1 == head [1,2,3]
+  1 == 1
+  True
+n=1
+  xs !! 1 == head (drop 1 xs)
+  2 == head [2,3]
+  2 == 2
+  True
+n=2
+  xs !! 2 == head (drop 2 xs)
+  3 == head [3]
+  3 == 3
+  True
