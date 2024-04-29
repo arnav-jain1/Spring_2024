@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "9adcb61093f56730",
+            "id": "16de1e9649f1940b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "468/ArnavJain_Assignment9/test.md",
+                "file": "330/notes/13-Greedy Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "468/ArnavJain_Assignment9/test.md",
+                "file": "330/notes/13-Greedy Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "468/ArnavJain_Assignment9/test.md",
+                "file": "330/notes/13-Greedy Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "468/ArnavJain_Assignment9/test.md"
+                "file": "330/notes/13-Greedy Algorithms.md"
               }
             }
           }
@@ -159,44 +159,46 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9adcb61093f56730",
+  "active": "16de1e9649f1940b",
   "lastOpenFiles": [
+    "330/notes/Pasted image 20240428215707.png",
+    "330/notes/Pasted image 20240428215634.png",
+    "330/notes/Pasted image 20240428215221.png",
+    "330/notes/Pasted image 20240428215212.png",
+    "330/notes/Pasted image 20240428214540.png",
+    "330/notes/Pasted image 20240428213953.png",
+    "330/notes/Pasted image 20240428211907.png",
+    "330/notes/Pasted image 20240428210856.png",
+    "330/notes/Pasted image 20240428210709.png",
+    "330/notes/Pasted image 20240428210632.png",
+    "latex guide.md",
+    "330/notes/13-Greedy Algorithms.md",
+    "468/ArnavJain_Assignment9/test.md",
     "468/ArnavJain_Assignment9/test.pdf",
     "447/proj/Pasted image 20240417215917.png",
     "468/daily_assignments/4-28.txt",
     "468/daily_assignments/4-26.txt",
-    "447/proj/Pasted image 20240417215915.png",
     "447/proj/Report.md",
     "447/proj/reportfinal.pdf",
     "447/hw/hw4.md",
     "447/proj",
     "468/ArnavJain_Assignment8/output.md",
     "468/ArnavJain_Assignment8/output.pdf",
-    "latex guide.md",
     "468/ArnavJain_Assignment8/a8.hs",
     "468/ArnavJain_Assignment8",
     "330/notes/12-Shortest Path.md",
-    "330/notes/Pasted image 20240411174307.png",
-    "330/notes/Pasted image 20240411172908.png",
-    "330/notes/Pasted image 20240411172110.png",
-    "330/notes/Pasted image 20240411171411.png",
-    "330/notes/Pasted image 20240411170908.png",
-    "330/notes/Pasted image 20240411170713.png",
     "447/notes/9-Views.md",
     "447/notes/10-Index.md",
     "447/notes/8-ActiveDB.md",
     "447/notes/11-Transaction.md",
     "447/notes/7.4-SQL-4.md",
     "447/notes/12-NoSQL.md",
-    "447/notes/Pasted image 20240411143956.png",
-    "447/notes/Pasted image 20240409160521.png",
     "330/notes/11-MST.md",
     "447/notes/10-",
     "330/notes/10-Graphs.md",
     "330/notes/9-Disjoint Sets.md",
     "330/notes/8-Hashing.md",
     "447/hw/hw4.pdf",
-    "468/daily_assignments/submissions/4-5.pdf",
     "468/ArnavJain_Assignment7/done.md",
     "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
@@ -204,8 +206,6 @@
     "465/14-SSH.md",
     "465/19-IDS.md",
     "447/notes/7.3-SQL-3.md",
-    "447/notes/7.2-SQL-2.md",
-    "447/notes/7.1-SQL-1.md",
-    "447/notes/6-Relational Algebra.md"
+    "447/notes/7.2-SQL-2.md"
   ]
 }
