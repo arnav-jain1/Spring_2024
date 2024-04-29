@@ -1,7 +1,7 @@
 instance (Integral a, Arbitrary a) => Arbitrary (Prime a) where
   arbitrary = do
-    x <- frequency [ (10, choose (0, 1000)),
-                     (5, choose (1001, 10000)),
-                     (1, choose (10001, 50000))
+    x <- frequency [ (250, choose (0, 1000)),
+                     (250, choose (1001, 10000)),
+                     (500, choose (10001, 50000))
                    ]
     return $ Prime (primes !! x)
