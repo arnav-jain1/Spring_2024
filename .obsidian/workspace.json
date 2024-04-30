@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/13-Greedy Algorithms.md",
+                "file": "465/2-Networking slides.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/13-Greedy Algorithms.md",
+                "file": "465/2-Networking slides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/13-Greedy Algorithms.md",
+                "file": "465/2-Networking slides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/13-Greedy Algorithms.md"
+                "file": "465/2-Networking slides.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "16de1e9649f1940b",
   "lastOpenFiles": [
+    "330/notes/13-Greedy Algorithms.md",
     "468/daily_assignments/submissions/5-1.pdf",
     "468/daily_assignments/5-1.pdf",
     "468/daily_assignments/lu89248pm2w5.tmp",
@@ -176,7 +177,6 @@
     "330/notes/Pasted image 20240428210709.png",
     "330/notes/Pasted image 20240428210632.png",
     "latex guide.md",
-    "330/notes/13-Greedy Algorithms.md",
     "468/ArnavJain_Assignment9/test.md",
     "468/ArnavJain_Assignment9/test.pdf",
     "468/daily_assignments/4-28.txt",
@@ -187,7 +187,6 @@
     "447/proj",
     "468/ArnavJain_Assignment8/output.md",
     "468/ArnavJain_Assignment8/output.pdf",
-    "468/ArnavJain_Assignment8/a8.hs",
     "330/notes/12-Shortest Path.md",
     "447/notes/9-Views.md",
     "447/notes/10-Index.md",
