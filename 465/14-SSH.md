@@ -9,6 +9,8 @@ Challenge response protocol
 	Hash function isolates the private key
 
 ## SSH Agent
+Essentially, a way to connect to the SSH server through a good man in the middle where the agent does the same actions as the initial user and the user doesn't need to keep typing in the password on each time because the private key is stored in memory
+
 Private key must be protected by a passphrase 
 The passphrase is used to generate a key that encrypts the private key on the local file system
 SSH Agent can load the private key into memory and perform the challenge resposne protocal for the user

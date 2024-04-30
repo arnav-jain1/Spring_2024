@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "465/2-Networking slides.md",
+                "file": "465/20-Wireless network cracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "465/2-Networking slides.md",
+                "file": "465/20-Wireless network cracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "465/2-Networking slides.md",
+                "file": "465/20-Wireless network cracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "465/2-Networking slides.md"
+                "file": "465/20-Wireless network cracking.md"
               }
             }
           }
@@ -161,6 +161,14 @@
   },
   "active": "16de1e9649f1940b",
   "lastOpenFiles": [
+    "465/Pasted image 20240430174604.png",
+    "465/Pasted image 20240430174022.png",
+    "465/19-IDS.md",
+    "465/20-Wireless network cracking.md",
+    "465/17-DDos.md",
+    "465/15-Sniffing Traffic.md",
+    "465/14-SSH.md",
+    "465/2-Networking slides.md",
     "330/notes/13-Greedy Algorithms.md",
     "468/daily_assignments/submissions/5-1.pdf",
     "468/daily_assignments/5-1.pdf",
@@ -175,7 +183,6 @@
     "330/notes/Pasted image 20240428211907.png",
     "330/notes/Pasted image 20240428210856.png",
     "330/notes/Pasted image 20240428210709.png",
-    "330/notes/Pasted image 20240428210632.png",
     "latex guide.md",
     "468/ArnavJain_Assignment9/test.md",
     "468/ArnavJain_Assignment9/test.pdf",
@@ -199,12 +206,6 @@
     "330/notes/9-Disjoint Sets.md",
     "330/notes/8-Hashing.md",
     "468/ArnavJain_Assignment7/done.md",
-    "465/17-DDos.md",
-    "465/15-Sniffing Traffic.md",
-    "465/16-Interacting with traffic.md",
-    "465/14-SSH.md",
-    "465/19-IDS.md",
-    "447/notes/7.3-SQL-3.md",
-    "447/notes/7.2-SQL-2.md"
+    "465/16-Interacting with traffic.md"
   ]
 }
