@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "latex guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16de1e9649f1940b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "465/20-Wireless network cracking.md",
+                "file": "465/23- FIrewalls.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "465/20-Wireless network cracking.md",
+                "file": "465/23- FIrewalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "465/20-Wireless network cracking.md",
+                "file": "465/23- FIrewalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "465/20-Wireless network cracking.md"
+                "file": "465/23- FIrewalls.md"
               }
             }
           }
@@ -159,12 +146,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "16de1e9649f1940b",
+  "active": "d549425fa9471478",
   "lastOpenFiles": [
+    "465/Pasted image 20240430204720.png",
+    "465/Pasted image 20240430204616.png",
+    "465/Pasted image 20240430204605.png",
+    "465/Pasted image 20240430204303.png",
+    "latex guide.md",
+    "465/23- FIrewalls.md",
+    "465/21-Rootkit and security onion.md",
+    "465/20-Wireless network cracking.md",
     "465/Pasted image 20240430174604.png",
     "465/Pasted image 20240430174022.png",
     "465/19-IDS.md",
-    "465/20-Wireless network cracking.md",
     "465/17-DDos.md",
     "465/15-Sniffing Traffic.md",
     "465/14-SSH.md",
@@ -179,11 +173,6 @@
     "330/notes/Pasted image 20240428215221.png",
     "330/notes/Pasted image 20240428215212.png",
     "330/notes/Pasted image 20240428214540.png",
-    "330/notes/Pasted image 20240428213953.png",
-    "330/notes/Pasted image 20240428211907.png",
-    "330/notes/Pasted image 20240428210856.png",
-    "330/notes/Pasted image 20240428210709.png",
-    "latex guide.md",
     "468/ArnavJain_Assignment9/test.md",
     "468/ArnavJain_Assignment9/test.pdf",
     "468/daily_assignments/4-28.txt",
@@ -204,8 +193,6 @@
     "330/notes/11-MST.md",
     "330/notes/10-Graphs.md",
     "330/notes/9-Disjoint Sets.md",
-    "330/notes/8-Hashing.md",
-    "468/ArnavJain_Assignment7/done.md",
-    "465/16-Interacting with traffic.md"
+    "330/notes/8-Hashing.md"
   ]
 }
