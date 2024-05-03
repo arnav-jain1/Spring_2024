@@ -1,3 +1,4 @@
+# Lec 17
 # DoS/DDoS
 DoS stands for denial of service
 Attempt by attackers to prevent users from accessing the site or service
@@ -53,6 +54,9 @@ Results: Target host becomes overloaded and can't reply to legit requests
 **SOLUTIONS**: not many, like trying to stop a flood as a singular house
 	Most UDP filters aren't very good
 	ISP needs to help filter
+
+## Sloworis 
+Keep as many connections to the target server open as long as possible
 
 ## Tools
 LOIC (Low Orbit Ion Cannon)- open source network stress testing application

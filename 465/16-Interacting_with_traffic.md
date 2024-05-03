@@ -1,3 +1,4 @@
+# Lec 16
 ![[Pasted image 20240320220108.png]]
 Packets have headers and information
 

@@ -1,4 +1,5 @@
-# Intrusion detection system
+# Lec 19
+# Intrusion detection system (Snort)
 Software to detect malware
 Types:
 	Network
@@ -15,3 +16,5 @@ Methods:
 Industry standard IDS
 ![[Pasted image 20240328172615.png]]
 Essentially an antivirus
+Rules:
+![[Pasted image 20240502161757.png]]

@@ -1,3 +1,4 @@
+# Lec 22
 # WEP
 SSID: Service set identifier (network name)
 BSSID: Basic SSID (unique identifier for network)
@@ -23,6 +24,7 @@ Many flaws
 Pigeonhole principle: If there are more pigeons than pigeonholes, then there must be pigeonholes with multiple pigeons 
 Birthday paradox: If there are 23 people in a room, the odds of two having the same birthday are 50%
 ![[Pasted image 20240430174604.png]]
+IV Changes and gets concat with key, having two same IVs we can get the key
 <mark style="background: #ADCCFFA6;">Since the IV is only 24 bits, Pigeonhole princple says the IV will eventually start repeating </mark>
 <mark style="background: #ADCCFFA6;">Bday paradox helps show that after a surprisingly small number of IVs (5000), there is a high chance that some IVs are going to be reused</mark>
 Vernam cipher: Key XOR text = cipher; cipher XOR key = text. 

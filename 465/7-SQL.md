@@ -1,3 +1,4 @@
+# Lec 7
 # SQL
 Domain specific language used to communicate with relational dbs
 	Manage stored data 

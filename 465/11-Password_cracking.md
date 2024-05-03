@@ -1,4 +1,4 @@
-also lec 10
+# Lec 11
 # Passwords
 Bad password:
 	Easy to guess or hard to remember
@@ -31,8 +31,14 @@ Similar but work in different ways
 Forked Process: The parent processing thread creates a new process that has a copy of a part of the parent process to do the task so that if something happens to the child process the parent is still thriving
 	Costs a lot more
 	Bit safer in case anything goes wrong
+	Hydra
 Process threads: Similar but threads share state and memory space
 	Faster but more unsafe and complex
+	Medusa
+
+## Cryptographic Hash
+Input is a variable length message, output is a unique fixed-length string
+One way, output does not give input and input always has same output
 
 ## Brute force cracking
 Try all possible combinations of length 1, 2, etc. Hash them and see if it is the same as the hash you are trying to crack. 

@@ -1,3 +1,4 @@
+# Lec 13
 # Cryptography
 
 Mathematical way of protecting sensitive info
@@ -53,3 +54,4 @@ This ensures that the message was not tampered with
 Based on symmetric cryptography 
 hash with a shared key
 Only holder of the shared key can generate a valid MAC tag
+Its like Digital signature but symmetric encryption so only one person can verify instead of the whole world

@@ -1,3 +1,4 @@
+# Lec 4
 # Command Line basics
 Help flags exist to provide documentation
 Control + Z: Suspends a process and places it in the background 
