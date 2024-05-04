@@ -105,5 +105,11 @@ For a given sequence X = $\{x_{1}, x_{2}, ... x_{n}\}$, Z = $\{z_{1}, z_{2}, ...
 ![[Pasted image 20240503193452.png]]
 The goal is to find the maximum length common subsequence of both X and Y (may not be unique)
 
-Example:
-	
+Example X = {A,B,C,B,D,A,B} and Y={B,D,C,A,B,A}
+	Z1 = {B,C,A} is a common subsequence but not longest
+	Z2 = {B,C,B,A} is longest
+	Z3 = {B,D,A,B}
+	No common length of 5
+
+Exhaustive runtime:
+	All possible subseq of X is $2^n$, checking if it is a subseq of Y takes linear time m so runtime is $O(2^{n}m)$ 
