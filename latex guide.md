@@ -69,7 +69,8 @@ Note: For new line latex use \$\$ to surround the equation
 - Theta: `\theta` renders as $\theta$
 - Lambda: `\lambda` renders as $\lambda$
 - Sigma: `\sigma` renders as $\sigma$
-- Omega: `\omega` renders as $\omega$
+- lowercase omega: `\omega` renders as $\omega$
+- Uppercase Omega: `\Omega` renders as $\Omega$
 
 ## Logical Symbols
 
