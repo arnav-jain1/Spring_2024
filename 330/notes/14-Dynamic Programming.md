@@ -113,3 +113,45 @@ Example X = {A,B,C,B,D,A,B} and Y={B,D,C,A,B,A}
 
 Exhaustive runtime:
 	All possible subseq of X is $2^n$, checking if it is a subseq of Y takes linear time m so runtime is $O(2^{n}m)$ 
+
+### Recursive sol
+$X_{1}$ has length i and $Y_{j}$ has length j and c\[i,j] has is the length of the LCS
+Idea: Compare the last characters of Xi and Yj and then recurse. 
+Case 1 xi == yj:
+	Recurse by finding LCS of $X_{i-1}$ and $Y_{j-1}$
+	LCS = (LCS(Xi-1, Yj-1, xi)   
+	Length: c\[i,j] = c\[i-1, j-1] + 1
+Case 2 $x_{i} \ne y_j$  
+	Recurse by finding LCS of $X_{i-1}$ and $Y_{j}$ 
+	LCS = (LCS(Xi-1, Yj)   
+	Length: c\[i,j] = c\[i-1, j]
+Case 3: Same as case 2 but drop $y_{j}$
+	Recurse by finding LCS of $X_{i}$ and $Y_{j-1}$ 
+	LCS = (LCS(Xi, Yj-1)   
+	Length: c\[i,j] = c\[i, j-1]
+
+We usually need to find the max of Case 2 and case 3
+![[Pasted image 20240504141023.png]]
+Note: LCS uses a condition to restrict which subproblem to consider
+Also, there is another table b\[i,j] to track which case leads to the value of c\[i,j] above
+Length of LCS is c\[n.m]
+
+
+### Dynamic Programming
+Fills up a table of size c\[0:n,0:m] using bottom up approach 
+The first set where i=0 or j=0 is filled with 0s
+![[Pasted image 20240504141530.png]]
+Note: flip n and m in this image
+
+Every c\[i,j] depends on a square one up, one left, or one upper left
+	c\[i-1,j] or c\[i,j-1] or c\[i-1,j-1] 
+So you can fill up the table in any order that respects the dependencies 
+	row-major order: 1 row at a time bottom to top
+	Can do column, or diagonal (kind of) but not used as much
+c\[n,m] gives the optimal solution (bottom right corner)
+![[Pasted image 20240504142335.png]]
+The runtime is $\theta(nm)$ since there are n\*m entries and computing each takes constant time
+![[Pasted image 20240504142857.png]]
+The arrow traces the optimal solution back to the base case
+![[Pasted image 20240504142943.png]]
+

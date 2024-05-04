@@ -56,12 +56,3 @@ In FIND-SET, Path compression makes each node in the path to the element point t
 Total runtime for Union by rank and path compression is $O(m\alpha(n))$ where $\alpha(n)$ is a really slow growing function so the time complexity is essentially (but not technically) O(m) (linear)
 ![[Pasted image 20240320172957.png]]
 
-### Recursive sol
-$X_{1}$ has length i and $Y_{j}$ has length j and c\[i,j] has is the length of the LCS
-Idea: Compare the last characters of Xi and Yj and then recurse. 
-Case 1 xi == yj:
-	Recurse by finding LCS of $X_{i-1}$ and $Y_{j-1}$
-	LCS = (LCS(Xi-1, Yj-1, xi)   
-	Length: c\[i,j] = c\[i-1, j-1] + 1
-Case 2 $x_{i} \ne y_j$  
-	Recurse by finding LCS of $X_{i-1}$ and $Y_{j}$ 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/9-Disjoint Sets.md",
+                "file": "330/notes/14-Dynamic Programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/9-Disjoint Sets.md",
+                "file": "330/notes/14-Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/9-Disjoint Sets.md",
+                "file": "330/notes/14-Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/9-Disjoint Sets.md"
+                "file": "330/notes/14-Dynamic Programming.md"
               }
             }
           }
@@ -160,6 +160,12 @@
   },
   "active": "d549425fa9471478",
   "lastOpenFiles": [
+    "330/notes/Pasted image 20240504142943.png",
+    "330/notes/Pasted image 20240504142857.png",
+    "330/notes/Pasted image 20240504142335.png",
+    "330/notes/9-Disjoint Sets.md",
+    "330/notes/Pasted image 20240504141530.png",
+    "330/notes/Pasted image 20240504141023.png",
     "330/notes/14-Dynamic Programming.md",
     "330/notes/Pasted image 20240503193452.png",
     "330/notes/Pasted image 20240503191636.png",
@@ -167,10 +173,6 @@
     "330/notes/Pasted image 20240503190920.png",
     "330/notes/Pasted image 20240503185954.png",
     "330/notes/Pasted image 20240503185543.png",
-    "330/notes/Pasted image 20240503183635.png",
-    "330/notes/Pasted image 20240503183523.png",
-    "330/notes/Pasted image 20240503183134.png",
-    "330/notes/Pasted image 20240503161650.png",
     "latex guide.md",
     "465/!All.md",
     "465/!Study Guide.md",
@@ -202,7 +204,6 @@
     "468/daily_assignments/4-26.txt",
     "447/proj/Report.md",
     "447/proj/reportfinal.pdf",
-    "447/hw/hw4.md",
     "447/proj",
     "468/ArnavJain_Assignment8/output.pdf"
   ]
