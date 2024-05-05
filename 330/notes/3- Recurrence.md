@@ -31,6 +31,7 @@ If true then: T(n) = $\theta$ ($n^{\log _b\left(a\right)}$)
 Another way is to see if $n^{\log _b\left(a\right)-\epsilon} >= f(n)$ where $\epsilon > 0$
 Ex: T(n) = 4T(n/2) + n
  $f(n)= n$ and $=n^{\log _2\left(4\right)-\epsilon} = n^1$ so $T(n) = \theta(n^2))$ 
+ aka $n^{\log _b\left(a\right)} > f(n)$ if so then $\theta(n^{\log _b\left(a\right)} )$
 
 ### Case 2:
 If case 1 can't be applied then you take $f(n)=n^{\log _b\left(a\right)}$ and multiply it by $\log n$ 
@@ -43,6 +44,10 @@ $n^{2}== f(n) = n^2$ so Case 2 applies
 
 Instead $T(n) = \theta(n^2logn)$  
 
+ aka $n^{\log _b\left(a\right)} = f(n)$ if so then $\theta(n^{\log _b\left(a\right)} *logn)$ 
+ Note: for this one you have to be vary of logn. If f(n) has logn you include it in the $\theta$ notation 
+ If one of them is divided by logn, you cant use master method
+ ![[Pasted image 20240504204357.png]]
 ### Case 3: 
 Case 3 applied when $n^{\log _b\left(a\right)} < f(n)$ then $\theta(n) = f(n)$
 Ex: 
@@ -50,6 +55,7 @@ $T(n) = 4T(n/2)+ n^3$
 $=n^{\log _2\left(4\right)} = n^{2} < n^3$ so $\theta(n^3)$ 
 
 
+ aka $n^{\log _b\left(a\right)} < f(n)$ if so then $\theta(f(n))$  
 ## Binary Search
 Find the middle
 if middle is bigger, search left
@@ -64,3 +70,4 @@ Case 2: $T(n) = \theta(f(n)*\log n) = \theta(\log n)$
 Do more addition than multiplication
 $T(n) = 7T\left(\frac{n}{2}\right) + \theta(n^2)$ 
 $n^{\log _b\left(a\right)} = n^{\log _2\left(7\right)} = n^{2.807...}$ which is asymptotically better than $n^3$ 
+![[Pasted image 20240504204518.png]]
