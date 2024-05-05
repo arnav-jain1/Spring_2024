@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/11-MST.md",
+                "file": "330/notes/12-Shortest Path.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/11-MST.md",
+                "file": "330/notes/12-Shortest Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/11-MST.md",
+                "file": "330/notes/12-Shortest Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/11-MST.md"
+                "file": "330/notes/12-Shortest Path.md"
               }
             }
           }
@@ -160,20 +160,21 @@
   },
   "active": "d549425fa9471478",
   "lastOpenFiles": [
+    "330/notes/11-MST.md",
+    "330/notes/Pasted image 20240505124446.png",
+    "330/notes/Pasted image 20240505124125.png",
+    "330/notes/Pasted image 20240505124110.png",
+    "330/notes/Pasted image 20240505124008.png",
+    "330/notes/Pasted image 20240505123243.png",
     "330/notes/10-Graphs.md",
     "330/notes/Pasted image 20240505001822.png",
     "330/notes/Pasted image 20240505001811.png",
     "330/notes/Pasted image 20240505001002.png",
     "330/notes/Pasted image 20240505000943.png",
     "330/notes/Pasted image 20240505000655.png",
-    "330/notes/Pasted image 20240505000053.png",
-    "330/notes/Pasted image 20240505000037.png",
     "330/notes/9-Disjoint Sets.md",
-    "330/notes/Pasted image 20240504232458.png",
     "330/notes/4-Randomized Algos.md",
     "330/notes/3- Recurrence.md",
-    "330/notes/Pasted image 20240504204518.png",
-    "330/notes/Pasted image 20240504204357.png",
     "330/notes/2-Asymptotic.md",
     "330/notes/1-Sorting.md",
     "330/notes/14-Dynamic Programming.md",

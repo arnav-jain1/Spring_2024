@@ -9,6 +9,7 @@ Free tree always has these properties:
 
 ## Spanning tree
 In a graph that is connected and undirected, a spanning tree is a free tree that has all the verts in the original graph as well as a subset of edges
+![[Pasted image 20240505123243.png]]
 
 # Weighted graph
 Connected undirected graph with a weight function that has the cost of each edge
@@ -50,6 +51,10 @@ Implemented using a disjoint set
 	Each set is a tree in the forest 
 	Trees gradually merged to form MST
 	The set is sorted by weight and processed one by one
+![[Pasted image 20240505124008.png]]
+![[Pasted image 20240505124110.png]]
+![[Pasted image 20240505124125.png]]
+
 ![[Pasted image 20240402100835.png]]
 Run time is dominated by sorting 
 $O(E * log(V))$
@@ -60,12 +65,13 @@ Always maintains one tree that will grow to form the MST
 Starts with arbitrary root vertex
 In each iteration, the tree adds the minimum weight edge that connects it to a vertex not a part of the tree already
 This process is repeated until there are no more verticies not a part of the MST
-
+![[Pasted image 20240505124446.png]]
+	
 Implementation:
 	Min heap for verts not in the tree with insert, remove, and decrease-key functions (logv)
 	Each vert has two vars
 		v.key: Minimum weight of any edge connecting v to the tree (set to inf and gets updated when a neighbor is added to the tree)
 		v.p: Parent of v when added to the tree (initially NIL)
 	![[Pasted image 20240402103338.png]]
-	Runtime is O(E * logV) Because you have to decrease each vert (logV) after each edge is added. (lines 10-14)
+	Lines 1-4 are $\theta(V)$, Lines 6-9 are $O(VlogV)$ because heap and Lines 10-14 are O(ElogV). Since E>V, Runtime is O(E * logV) Because you have to decrease each vert (logV) after each edge is added. (lines 10-14)
 	
