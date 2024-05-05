@@ -15,6 +15,7 @@ Given an edge (u,v), u is <mark style="background: #FF5582A6;">adjacent</mark>
 ## Degree
 The degree of a vertex is the amount of edges connected from/to it
 	If the graph is undirected, It is the number of vertex connected to the node
+		The sum of degrees is double the amount of edges
 	If the graph is directed:
 		The <mark style="background: #FF5582A6;">in-degree</mark> is the number of edges entering the node
 		The <mark style="background: #FF5582A6;">out-degree</mark> is the number of edges leaving the node
@@ -46,6 +47,7 @@ Adjacency-list representation:
 	An array of |V| elements where each element is a vertex and points to a linked list of all of the verticies it is adjacent to 
 	Total length of the linked lists is 2*# of edges (|E|)
 	Storage: $\theta(V + E)$
+	Number of verts + edges which checks out 
 Adjacency-matrix representation 
 	|V| \* |V| matrix where all numbers are 0 unless there is an edge which then it becomes 1
 	Symmetric for undirected 
@@ -93,8 +95,11 @@ When discovered for the first time, v.color = grey, v.d = u.d + 1, v.p = u
 ![[Pasted image 20240328153414.png]]
 Run time is $\theta(V+E)$: Lines 1-4 take $\theta(V)$, lines 12-16 take $\theta(E)$ 
 Each vertex is enqueued once and dequeued once (why $\theta(V)$) 
+![[Pasted image 20240505000037.png]]
+![[Pasted image 20240505000053.png]]
 
 ## DFS
+![[Pasted image 20240505000655.png]]
 Starts from any index and searches deeper before backtracking to search for other vertices, kind of like a BST print
 Uses same 3 colors 
 	White: Undiscovered
@@ -104,6 +109,8 @@ Uses same 3 colors
 	v.d: When first discovered (colored grey)
 	v.f: When finished (colored black)
 	v.d < v.f
+![[Pasted image 20240505000943.png]]
+![[Pasted image 20240505001002.png]]
 ![[Pasted image 20240328155105.png]]
 Psuedocode: 
 ![[Pasted image 20240328155129.png]]
@@ -128,6 +135,7 @@ Note:
 	Not the same as other sorting algorithms
 
 Used to sequence tasks with dependencies 
+![[Pasted image 20240505001822.png]]
 
 DFS can be used to do it in $\theta(V+E)$ time
 ![[Pasted image 20240328165353.png]]
@@ -144,7 +152,7 @@ Connected: Only one connected component G = V where G is the connected component
 ## Method 1: Graph search
 1. BFS/DFS starts with some vertex s and discovers all verts discoverable by s thus making a connected component 
 2. If there are more verts t, discover all verts reachable by t creating another connected component
-3. Repeat step 2
+3. Repeat
 $\theta(V + E)$ same as BFS/DFS
 
 ## Method 2: Disjoint Set 
