@@ -155,3 +155,46 @@ The runtime is $\theta(nm)$ since there are n\*m entries and computing each take
 The arrow traces the optimal solution back to the base case
 ![[Pasted image 20240504142943.png]]
 
+# Dynamic Programming
+Must have two elements to apply
+	Optimal substructure: the globally optimal solution has subproblems with optimal solutions (greedy algorithms)
+	Overlapping subproblems: Space of subproblem is actually small and recursive subproblem just solves same problems multiple times rather than unique subproblems (essentially, the problem solves the same thing multiple times which is inefficient because it can be done bottom up and saved to be used later)
+![[Pasted image 20240504191614.png]]
+
+You can design a DP solution according these steps:
+1. Prove optimal substructure: Show that the optimal solution has subproblems with optimal solutions themselves (skipped in class)
+2. Provide recursive formulation: Get precise formula to optimal solution value which is based on the optimal solution to subproblems
+3. Fill up the table: Done in more than one way as long as dependencies are respected. Auxillary table filled up at same time
+4. Construct optimal solution: Build the optimal solution by backtracking the auxillary table (print)
+
+Both greedy and DP exploit optimal substructure 
+
+## Knapsack Problem
+Problem: A knapsack can carry *W* pounds. The store has *n* items and *i*th item is characterized by 
+	$v_{i}$: value
+	$w_{i}$: weight
+Goal: Decide what items to take to maximize the total value while being lower than W
+Application: Selecting TV ads to max rev for a fixed time interval
+![[Pasted image 20240504192434.png]]
+Two variants
+	Fractional variant: Optimal greedy solution
+	0-1 variant: can be solved by DP
+
+### Fractional variant
+Thief can have a fraction of an item where the weight and price scale accordingly
+Thief takes items in order of decreasing value per pound $\frac{v_{i}}{w_{i}}$ until weight is reached
+![[Pasted image 20240504193121.png]]
+### 0-1 variant
+Thief must take full item or no item
+Greedy algo doesn't work, dynamic is better
+![[Pasted image 20240504193135.png]]
+
+
+# Paradigms 
+Covered 3:
+1. Divide and conquer (computational)
+	Divide problem into smaller subproblems which are solved recursively (merge/quicksort)
+2. Greedy (optimization)
+	Select the optimal choice for each subproblem leading to the optimal solution
+3. Dynamic Programming (optimization)
+	Examine multiple choices that have a subproblem that is shared with other subproblems (generally solved bottom up)
