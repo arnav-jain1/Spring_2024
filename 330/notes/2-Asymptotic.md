@@ -5,11 +5,13 @@ O Notation: Upper bound on the asymptotic effeciency of a function
     Function grows no faster than a certain rate
     Based on highest order
     (worst case)
+	$O \ge$
 
 Ω Notation: Lower bound on asymptotic effeciency of a function
     Function grows no slower than a certain rate
     Also based on higher order
     (best case)
+	$\Omega \le$ 
 
 θ Notation: Tight bound on asymptotic effeciency
     Grows percisely at a certain rate 
@@ -28,6 +30,7 @@ Formal Ω notation: There exists constants so that 0 <= cg(n) <= f(n) for all n 
 ![Alt text](image-6.png)
 
 Formal θ notation: There exists constants so that θ <= c1g(n) <= f(n) <= c2g(n) for all n >= n0
+	Essentially, same degree
 ![Alt text](image-7.png)
 
 
@@ -37,11 +40,11 @@ Formal θ notation: There exists constants so that θ <= c1g(n) <= f(n) <= c2g(n
 ## o-notation
 
 * o is <  while O is <=
-* If o(n) means that the runtime is strickly slower than n while O(n) means it is slower than or equal to n
+* If o(n) means that the runtime is strictly slower than n while O(n) means it is slower than or equal to n
 ![Alt text](image-8.png)
 * If f(n) = o(g(n)): g(n) > f(n)
   * If f(n) = O(g(n)): g(n) >= f(n)
-
+$n^{2} \ne o(n^{2})$ just like $2 \not> 2$ 
 ## 𝜔-notation (Little omega)
 
 * 𝜔 strict lower bound
@@ -66,3 +69,13 @@ Formal θ notation: There exists constants so that θ <= c1g(n) <= f(n) <= c2g(n
   * Works for all big notations
 * Transpose symmetry
 ![Alt text](image-10.png)
+
+
+# Runtimes
+$n! > c^{n} > n^{c} > (logn)^{c}$ where c is a constant and n is the size
+Base of log does not matter $\log_{2}(x) == \log_{3}(x)$  
+But degree of polynomial and base of exponential does matter 
+	$3^{n}>2^{n}$
+	$x^{3}>x^{2}$
+	$(logn)^{3}>(logn)^{2}$
+![[Pasted image 20240505163109.png]]

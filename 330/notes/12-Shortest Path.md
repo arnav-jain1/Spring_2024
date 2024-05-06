@@ -39,8 +39,10 @@ Returns true or false:
 	False otherwise 
 Used to detect negative weight cycles
 ![[Pasted image 20240411172110.png]]
-Line 1 takes $\theta(V)$, Lines 2-4 take $\theta(VE)$ Because $\forall v \in E$ it calls relax E times and lines 4-8 take $\theta(E)$
-
+Line 1 takes $\theta(V)$, Lines 2-4 take $\theta(VE)$ Because $\forall v \in V$ it calls relax E times and lines 4-8 take $\theta(E)$
+![[Pasted image 20240505132225.png]]
+![[Pasted image 20240505132233.png]]![[Pasted image 20240505132244.png]]
+![[Pasted image 20240505132843.png]]
 ## DAG
 Does not work with cycles (negatives are fine)
 DAG is more efficient because Because it makes 1 pass of edge relaxations instead of V-1
@@ -49,7 +51,10 @@ DAG is more efficient because Because it makes 1 pass of edge relaxations instea
 2. Edge relaxations over the verts with 1 pass through
 
 ![[Pasted image 20240411172908.png]]
-
+![[Pasted image 20240505134132.png]]
+![[Pasted image 20240505134150.png]]
+![[Pasted image 20240505134200.png]]
+![[Pasted image 20240505134213.png]]
 ## Dijkstra
 No negative weight edges
 
@@ -66,7 +71,12 @@ At each step
 	Moves highest priority vertex from Q to S
 	Relaxes all verts adj to u (starting a wave)
 ![[Pasted image 20240411174307.png]]
-Runtime: $\theta(E\log(V))$ 
+Runtime: $\theta(E\log(V))$ because same structure as prims
+
+![[Pasted image 20240505134719.png]]
+![[Pasted image 20240505134747.png]]
+![[Pasted image 20240505134752.png]]
+
 
 # Summary
 

@@ -27,6 +27,7 @@ Makes a heap based on an unsorted list
 **Loop Invariant** At the start of each iteration, A\[1:i] is the smallest i elements while A\[i+1:n] is the n-i largest elements in sorted order
 
 Worst case runtime: O(nlogn) because to build the heap you have to iterate n times and to heapify it is logn so to build the heap the runtime is nlogn
+![[Pasted image 20240505171303.png]]
 
 # Comparison sort
 Sort elements by comparing the two numbers
@@ -35,7 +36,7 @@ Other forms exist like counting sort, radix sort, and bucket sort
 
 Any comparison sort algo has a worst case runtime of $\Omega(nlogn)$ 
 	Heapsort and merge sort are asymptotically optimal because their worst case is O(nlogn) unlike the others whose worst case is $O(n^2)$ 
-
+![[Pasted image 20240505171428.png]]
 
 # In place sorting
 Algorithm is called in-place if the input array is directly sorted and a new one doesn't need to be created they have $\theta(1)$ additional space so it has space efficiency
@@ -50,10 +51,9 @@ Application of heap (both min and max) with 4 functions:
 	3. Max/min(): returns the max/min value $\theta(1)$ ![[Pasted image 20240212165330.png]]
 	4. extract(): returns and removes max/min value $O(logn)$ because need to heapify ![[Pasted image 20240212165445.png]]
 	5. Increase-key(element, num): Increases the value of element x's key to num $O(logn)$ since it takes logn to heapify and assuming O(1) to find the elem ![[Pasted image 20240212162204.png]] 
-
+![[Pasted image 20240505171623.png]]
 Ex: *Scheduler*: Scheduling jobs on a computer with different deadlines/priorities
 	Heap keeps track of jobs to be executed and their priorities
 	When a job is finished it grabs the next task by doing extract()
 	When a job is pending for a while you can do Increase it
 	Can add an additional job by doing insert
-	

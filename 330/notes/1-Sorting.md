@@ -1,4 +1,4 @@
-# 1 Sorting
+# Sorting
 
 ## General Information
 * Running time of algorithim of size n is denoted by T(n)
@@ -15,18 +15,20 @@
 * Get each number from the unsorted list and put it in the empty list while staying sorted
 ![Psuedocode](image.png) 
 * works because of *Loop Invariant*
-  * At the start of each i in the outer for loop, the subarray A[1:i-1] is the elements in [1:i-1] but in sorted order
+  * At the start of each i in the outer for loop, the subarray A\[1:i-1] is the elements in \[1:i-1] but in sorted order
+  ![[Pasted image 20240505161401.png]]
   * We need to prove 3 things
     * Initialization (base case): True before the start of the loop (true because one element is always sorted)
     * Maintenance (inductive step): If it is true before an iteration, it needs to be true after an iteration 
     * Termination: the loop terminates
   * Loop invariant is like an inductive proof
+	  * At the start of each iteration n, it has all the same elements originally in n but in sorted order
 * Cost:
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
 * Best case: Array already sorted while loop never ran (ti = 1) so T(n) is linear
 * Worst case: Array in reverse sorted so while loop runs a lot (ti = i) so T(n) is quadratic
-
+Insert sort is $\theta(n^{2})$ 
 # Sorting
 
 ## Divide and Conquer
@@ -38,11 +40,17 @@
 ## Merge Sort
 
 * Divide the array into two subarrays
-* Sort the subarrays recursively doing merge sort
+* Conquer: Sort the subarrays recursively doing merge sort
 * Once the subarrays is small enough sort it
 * Combine it
 ![Alt text](image-3.png)
-* To merge the two sorted arrays, go through each element of L and R and just add the smallest element to the new array and move the pointer accordingly O(n) time
+* To merge the two sorted arrays, go through each element of L and R and just add the smallest element to the new array and move the pointer accordingly O(n) time ![[Pasted image 20240505161740.png]]
+
 ![Alt text](image-4.png)
+![[Pasted image 20240505161816.png]]
+![[Pasted image 20240505161828.png]]
 * Insert sort and merge sort used together because insert sort is faster in smaller arrays
   * Ex when there are <=4 elements use insert sort
+## Runtime
+![[Pasted image 20240505161912.png]]
+$\theta(nlogn)$

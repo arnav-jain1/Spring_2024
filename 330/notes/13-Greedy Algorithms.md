@@ -16,6 +16,15 @@ Rules:
 	Two activities are compatible if their ranges dont overlap
 Goal: Minimum subset *A* of S
 ![[Pasted image 20240428210709.png]]
+Argue if the following greedy choices are optimal. If not, provide a counter-example against its optimality.
+
+- Select the first activity to start at each step.
+    - This is not optimal because you would choose a3 a7 a11 which is not four
+- Select the activity with the shortest duration at each step.
+    - This is not optimal becuase you could have two large tasks with a smaller task that overlaps them both and then it is no longer optimal
+- Selects the last activity to start at each step.
+    - This is an optimal solution
+    - If you view the graph upside down you can see that when its upside down its the same as first to finish
 ## Greedy choice
 Decision to pick the activity is to select the one that will finish earliest
 This will allow the resource to be as free as possible and a smaller subproblem to be created
@@ -73,5 +82,7 @@ It starts with a set of chars that are merged to create the final tree
 At each step, the two least frequent chars (By min priority Q) are summed and merged 
 Merge reduces number of objects one by one to create a subproblem that is solved similarly
 ![[Pasted image 20240428215634.png]]
+![[Pasted image 20240505144828.png]]
+
 ![[Pasted image 20240428215707.png]]
 Time complexity is $\theta(nlgn)$ because extract and insert take $\theta(lgn)$ and you do that n-1 times so n\*lgn

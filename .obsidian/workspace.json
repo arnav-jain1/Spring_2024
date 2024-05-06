@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/12-Shortest Path.md",
+                "file": "330/notes/8-Hashing.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/12-Shortest Path.md",
+                "file": "330/notes/8-Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/12-Shortest Path.md",
+                "file": "330/notes/8-Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/12-Shortest Path.md"
+                "file": "330/notes/8-Hashing.md"
               }
             }
           }
@@ -160,25 +160,32 @@
   },
   "active": "d549425fa9471478",
   "lastOpenFiles": [
-    "330/notes/11-MST.md",
-    "330/notes/Pasted image 20240505124446.png",
-    "330/notes/Pasted image 20240505124125.png",
-    "330/notes/Pasted image 20240505124110.png",
-    "330/notes/Pasted image 20240505124008.png",
-    "330/notes/Pasted image 20240505123243.png",
-    "330/notes/10-Graphs.md",
-    "330/notes/Pasted image 20240505001822.png",
-    "330/notes/Pasted image 20240505001811.png",
-    "330/notes/Pasted image 20240505001002.png",
-    "330/notes/Pasted image 20240505000943.png",
-    "330/notes/Pasted image 20240505000655.png",
+    "330/notes/Pasted image 20240505183842.png",
+    "330/notes/Pasted image 20240505183412.png",
+    "330/notes/Pasted image 20240505182958.png",
     "330/notes/9-Disjoint Sets.md",
-    "330/notes/4-Randomized Algos.md",
-    "330/notes/3- Recurrence.md",
-    "330/notes/2-Asymptotic.md",
-    "330/notes/1-Sorting.md",
-    "330/notes/14-Dynamic Programming.md",
+    "330/notes/7-BST.md",
+    "330/notes/Pasted image 20240505181210.png",
+    "330/notes/Pasted image 20240505181058.png",
+    "330/notes/Pasted image 20240505181006.png",
+    "330/notes/Pasted image 20240505180701.png",
+    "330/notes/Pasted image 20240505180606.png",
+    "330/notes/Pasted image 20240505180531.png",
+    "330/notes/Pasted image 20240505180456.png",
+    "330/notes/Pasted image 20240505180318.png",
+    "330/notes/6.1-Skip_List.md",
+    "330/notes/6-Data Structures.md",
     "latex guide.md",
+    "330/notes/5-Heapsort.md",
+    "330/notes/3- Recurrence.md",
+    "330/notes/1-Sorting.md",
+    "330/notes/4-Randomized Algos.md",
+    "330/notes/2-Asymptotic.md",
+    "330/notes/14-Dynamic Programming.md",
+    "330/notes/13-Greedy Algorithms.md",
+    "330/notes/12-Shortest Path.md",
+    "330/notes/11-MST.md",
+    "330/notes/10-Graphs.md",
     "465/!All.md",
     "465/!Study Guide.md",
     "465/26-FIrewalls.md",
@@ -189,13 +196,6 @@
     "465/15-Sniffing_Traffic.md",
     "465/11-Password_cracking.md",
     "465/6-Recon_(NMAP)_and_Vulnerabilities.md",
-    "465/4-CL_LAMP.md",
-    "465/3-OS.md",
-    "465/2-Networking_slides.md",
-    "465/17-DDos.md",
-    "465/13-Cryptography.md",
-    "465/14-SSH.md",
-    "465/7-SQL.md",
     "468/daily_assignments/submissions/5-1.pdf",
     "468/daily_assignments/5-1.pdf",
     "468/daily_assignments/lu89248pm2w5.tmp",
