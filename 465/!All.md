@@ -351,7 +351,8 @@ Linux salts the value then hashes result
 
 
 # Salting
-Add a value start or end of the input so that it is even harder to crack# Lec 13
+Add a value start or end of the input so that it is even harder to crack
+# Lec 13
 # Cryptography
 
 Mathematical way of protecting sensitive info
@@ -799,14 +800,13 @@ Configuration wizard for install
 
 ## Elastic Stack (ELK)
 
-- Elastic Search
-	- Distributed
 	- Restful
 	- non-relational db
 - Logstash
 	- Pipline for centralizing, transforming, and stashing data
 - Kibana
-	- Visualize # Lec 26
+	- Visualize 
+# Lec 26
 Like perimeter control 
 
 Used in two places

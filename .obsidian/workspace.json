@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "330/notes/11-MST.md",
+                "file": "465/!All.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "latex guide.md",
+                "file": "465/!All.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "330/notes/11-MST.md",
+                "file": "465/!All.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "330/notes/11-MST.md",
+                "file": "465/!All.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "330/notes/11-MST.md"
+                "file": "465/!All.md"
               }
             }
           }
@@ -158,12 +159,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d549425fa9471478",
+  "active": "fc155717f09dacae",
   "lastOpenFiles": [
+    "465/!Study Guide.md",
+    "465/!All.md",
+    "latex guide.md",
+    "465/6-Recon_(NMAP)_and_Vulnerabilities.md",
+    "330/notes/11-MST.md",
     "330/notes/14-Dynamic Programming.md",
     "330/notes/13-Greedy Algorithms.md",
     "330/notes/12-Shortest Path.md",
-    "330/notes/11-MST.md",
     "330/notes/10-Graphs.md",
     "330/notes/9-Disjoint Sets.md",
     "330/notes/8-Hashing.md",
@@ -187,15 +192,11 @@
     "330/notes/Pasted image 20240505180606.png",
     "330/notes/Pasted image 20240505180531.png",
     "330/notes/Pasted image 20240505180456.png",
-    "latex guide.md",
-    "465/!All.md",
-    "465/!Study Guide.md",
     "465/26-FIrewalls.md",
     "465/23-Rootkit_and_Logging_and_Security_onion.md",
     "465/22-Wireless_network_cracking.md",
     "465/19-Intrusion_detection_system.md",
     "465/16-Interacting_with_traffic.md",
-    "465/15-Sniffing_Traffic.md",
     "468/daily_assignments/submissions/5-1.pdf",
     "468/daily_assignments/5-1.pdf",
     "468/daily_assignments/lu89248pm2w5.tmp",
