@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "838988dc9581334f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "fc155717f09dacae",
+  "active": "838988dc9581334f",
   "lastOpenFiles": [
     "465/!Study Guide.md",
     "465/!All.md",
